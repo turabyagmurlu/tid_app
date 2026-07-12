@@ -6,13 +6,14 @@ import '../../core/constants/app_strings.dart';
 import '../../data/models/lesson_model.dart';
 import '../../data/models/regional_variant_model.dart';
 import '../../data/models/word_model.dart';
+import '../widgets/dictionary_links.dart';
 import '../widgets/dual_video_player.dart';
 import '../widgets/grammar_quiz_widget.dart';
 import 'camera_practice_screen.dart';
 
-/// Ders detay ekranı: her işaret için çift açılı video, bölgesel varyant seçici,
-/// hatırlatıcı ipucu ve ayna modu alıştırma girişi. Gramer derslerinde ek olarak
-/// sürükle-bırak benzeri sıralama alıştırması gösterir.
+/// Ders detay ekranı: her işaret için (gömülü gerçek video varsa) çift açılı
+/// oynatıcı; yoksa güvenilir sözlükte gerçek işaret videosuna yönlendiren
+/// butonlar. Ayrıca bölgesel varyant seçici, hatırlatıcı ipucu ve ayna modu.
 class LessonDetailScreen extends StatelessWidget {
   final LessonModel lesson;
   const LessonDetailScreen({super.key, required this.lesson});
@@ -101,6 +102,10 @@ class _WordSectionState extends State<_WordSection> {
     final RegionalVariant? variant =
         variants.isNotEmpty ? variants[_variantIndex] : null;
 
+    // Gömülü gerçek video var mı? (Boş/eksik URL'lerde sözlüğe yönlendirilir.)
+    final bool hasRealVideo =
+        variant != null && variant.videoFullBody.trim().isNotEmpty;
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -120,31 +125,29 @@ class _WordSectionState extends State<_WordSection> {
         ],
         const SizedBox(height: AppDimensions.md),
 
-        // Bölgesel varyant seçici (birden fazla varyant varsa)
-        if (variants.length > 1)
-          _VariantSelector(
-            variants: variants,
-            selected: _variantIndex,
-            onChanged: (i) => setState(() => _variantIndex = i),
-          ),
-        if (variants.length > 1) const SizedBox(height: AppDimensions.sm),
-
-        // Çift açılı video (varyant değişince key ile yeniden başlatılır)
-        if (variant != null)
+        // Gömülü gerçek video varsa oynat; yoksa sözlük butonlarını göster.
+        if (hasRealVideo) ...[
+          if (variants.length > 1)
+            _VariantSelector(
+              variants: variants,
+              selected: _variantIndex,
+              onChanged: (i) => setState(() => _variantIndex = i),
+            ),
+          if (variants.length > 1) const SizedBox(height: AppDimensions.sm),
           DualVideoPlayer(
-            key: ValueKey('${word.wordId}_${variant.region}'),
+            key: ValueKey('${word.wordId}_${variant!.region}'),
             fullBodyUrl: variant.videoFullBody,
             lipCloseupUrl: variant.videoLipCloseups,
-          )
-        else
-          const _NoVideo(),
+          ),
+        ] else
+          DictionaryLinks(word: word.turkishWord),
 
         const SizedBox(height: AppDimensions.md),
 
         if (word.mnemonicTip.isNotEmpty) _MnemonicCard(tip: word.mnemonicTip),
         const SizedBox(height: AppDimensions.md),
 
-        if (variant != null)
+        if (hasRealVideo && variant != null)
           SizedBox(
             width: double.infinity,
             child: ElevatedButton.icon(
@@ -247,24 +250,6 @@ class _MnemonicCard extends StatelessWidget {
             ),
           ],
         ),
-      ),
-    );
-  }
-}
-
-class _NoVideo extends StatelessWidget {
-  const _NoVideo();
-
-  @override
-  Widget build(BuildContext context) {
-    return AspectRatio(
-      aspectRatio: 16 / 9,
-      child: Container(
-        decoration: BoxDecoration(
-          color: Colors.black12,
-          borderRadius: BorderRadius.circular(AppDimensions.radiusMd),
-        ),
-        child: const Center(child: Text('Bu işaret için video bulunamadı')),
       ),
     );
   }

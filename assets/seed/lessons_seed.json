@@ -14,13 +14,13 @@
           "regional_variants": [
             {
               "region": "İstanbul Standardı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             },
             {
               "region": "Ankara Varyantı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             }
           ],
           "mnemonic_tip": "Ellerinizi K harfinin iki kanadı gibi hayal edin.",
@@ -33,13 +33,13 @@
           "regional_variants": [
             {
               "region": "İstanbul Standardı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             },
             {
               "region": "Ankara Varyantı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             }
           ],
           "mnemonic_tip": "Parmakları avuç içine 'e' der gibi hafif kıvırın.",
@@ -60,8 +60,8 @@
           "regional_variants": [
             {
               "region": "İstanbul Standardı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             }
           ],
           "mnemonic_tip": "Bir numara: işaret parmağı gökyüzünü gösterir.",
@@ -74,8 +74,8 @@
           "regional_variants": [
             {
               "region": "İstanbul Standardı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             }
           ],
           "mnemonic_tip": "Zafer (V) işareti = iki.",
@@ -96,8 +96,8 @@
           "regional_variants": [
             {
               "region": "İstanbul Standardı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             }
           ],
           "mnemonic_tip": "Asker selamı verir gibi başlayıp eli dışa açın.",
@@ -110,8 +110,8 @@
           "regional_variants": [
             {
               "region": "İstanbul Standardı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             }
           ],
           "mnemonic_tip": "Öpücük gönderir gibi eli çeneden öne savurun.",
@@ -132,8 +132,8 @@
           "regional_variants": [
             {
               "region": "İstanbul Standardı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             }
           ],
           "mnemonic_tip": "Anne şefkati: eli yanağa yaklaştırın.",
@@ -146,8 +146,8 @@
           "regional_variants": [
             {
               "region": "İstanbul Standardı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             }
           ],
           "mnemonic_tip": "Baba = alın hizası (şapka siperi gibi).",
@@ -168,8 +168,8 @@
           "regional_variants": [
             {
               "region": "İstanbul Standardı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             }
           ],
           "mnemonic_tip": "Parmak gideceği yönü işaret eder.",
@@ -182,8 +182,8 @@
           "regional_variants": [
             {
               "region": "İstanbul Standardı",
-              "video_full_body": "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
-              "video_lip_closeups": "https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4"
+              "video_full_body": "",
+              "video_lip_closeups": ""
             }
           ],
           "mnemonic_tip": "Evet/hayır sorusunda kaşları kaldır, açık uçlu soruda çat.",
