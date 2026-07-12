@@ -1,0 +1,22 @@
+# Dart / Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Yedekler
+*.bak
+
+# Firebase gizli anahtarları (COMMIT ETME)
+google-services.json
+GoogleService-Info.plist
+
+# OS
+.DS_Store
+Thumbs.db
