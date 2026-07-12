@@ -1,195 +1,342 @@
 {
-  "_comment": "TİD örnek ders verisi. Bölüm 5 JSON şemasıyla birebir uyumludur. Video URL'leri GEÇİCİ herkese açık örneklerdir; gerçek TİD çekimleriyle (Firebase Storage/CDN) değiştirin.",
-  "lessons": [
-    {
-      "lesson_id": "tid_a1_m1_l01",
-      "title": "Bölgesel Harf Varyantları",
-      "level": "A1",
-      "module": "Modül 1: Başlangıç & Temeller (A1)",
-      "words": [
-        {
-          "word_id": "letter_k",
-          "turkish_word": "K Harfi",
-          "tid_grammar_note": "Çift el kullanılarak göğüs hizasında yapılır.",
-          "regional_variants": [
-            {
-              "region": "İstanbul Standardı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            },
-            {
-              "region": "Ankara Varyantı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            }
-          ],
-          "mnemonic_tip": "Ellerinizi K harfinin iki kanadı gibi hayal edin.",
-          "facial_expression_required": false
-        },
-        {
-          "word_id": "letter_e",
-          "turkish_word": "E Harfi",
-          "tid_grammar_note": "İstanbul ve Ankara gösterimleri parmak açısında farklılaşır.",
-          "regional_variants": [
-            {
-              "region": "İstanbul Standardı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            },
-            {
-              "region": "Ankara Varyantı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            }
-          ],
-          "mnemonic_tip": "Parmakları avuç içine 'e' der gibi hafif kıvırın.",
-          "facial_expression_required": false
-        }
-      ]
-    },
-    {
-      "lesson_id": "tid_a1_m1_l02",
-      "title": "Sayılar (0-9)",
-      "level": "A1",
-      "module": "Modül 1: Başlangıç & Temeller (A1)",
-      "words": [
-        {
-          "word_id": "num_bir",
-          "turkish_word": "Bir",
-          "tid_grammar_note": "Tek parmak yukarı, avuç içi karşıya bakar.",
-          "regional_variants": [
-            {
-              "region": "İstanbul Standardı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            }
-          ],
-          "mnemonic_tip": "Bir numara: işaret parmağı gökyüzünü gösterir.",
-          "facial_expression_required": false
-        },
-        {
-          "word_id": "num_iki",
-          "turkish_word": "İki",
-          "tid_grammar_note": "İşaret ve orta parmak açık (V), avuç içi karşıya.",
-          "regional_variants": [
-            {
-              "region": "İstanbul Standardı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            }
-          ],
-          "mnemonic_tip": "Zafer (V) işareti = iki.",
-          "facial_expression_required": false
-        }
-      ]
-    },
-    {
-      "lesson_id": "tid_a1_m1_l03",
-      "title": "Temel Selamlaşma",
-      "level": "A1",
-      "module": "Modül 1: Başlangıç & Temeller (A1)",
-      "words": [
-        {
-          "word_id": "greet_merhaba",
-          "turkish_word": "Merhaba",
-          "tid_grammar_note": "El alından dışa doğru açılır; gülümseme eşlik eder.",
-          "regional_variants": [
-            {
-              "region": "İstanbul Standardı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            }
-          ],
-          "mnemonic_tip": "Asker selamı verir gibi başlayıp eli dışa açın.",
-          "facial_expression_required": true
-        },
-        {
-          "word_id": "greet_tesekkur",
-          "turkish_word": "Teşekkür Ederim",
-          "tid_grammar_note": "El çeneden öne doğru uzatılır.",
-          "regional_variants": [
-            {
-              "region": "İstanbul Standardı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            }
-          ],
-          "mnemonic_tip": "Öpücük gönderir gibi eli çeneden öne savurun.",
-          "facial_expression_required": true
-        }
-      ]
-    },
-    {
-      "lesson_id": "tid_a2_m2_l01",
-      "title": "Aile Üyeleri",
-      "level": "A2",
-      "module": "Modül 2: Günlük Yaşam & Çevre (A2)",
-      "words": [
-        {
-          "word_id": "family_anne",
-          "turkish_word": "Anne",
-          "tid_grammar_note": "İşaret yanağa/çeneye yakın konumda yapılır.",
-          "regional_variants": [
-            {
-              "region": "İstanbul Standardı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            }
-          ],
-          "mnemonic_tip": "Anne şefkati: eli yanağa yaklaştırın.",
-          "facial_expression_required": false
-        },
-        {
-          "word_id": "family_baba",
-          "turkish_word": "Baba",
-          "tid_grammar_note": "İşaret alın/şakak hizasında yapılır.",
-          "regional_variants": [
-            {
-              "region": "İstanbul Standardı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            }
-          ],
-          "mnemonic_tip": "Baba = alın hizası (şapka siperi gibi).",
-          "facial_expression_required": false
-        }
-      ]
-    },
-    {
-      "lesson_id": "tid_b1_m3_l01",
-      "title": "TİD Cümle Dizilimi (Özne-Nesne-Yüklem)",
-      "level": "B1",
-      "module": "Modül 3: Gramer, Fiiller & Cümle (B1-B2)",
-      "words": [
-        {
-          "word_id": "verb_gitmek",
-          "turkish_word": "Gitmek",
-          "tid_grammar_note": "Yön işaret ederek; zaman cümlenin başında verilir.",
-          "regional_variants": [
-            {
-              "region": "İstanbul Standardı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            }
-          ],
-          "mnemonic_tip": "Parmak gideceği yönü işaret eder.",
-          "facial_expression_required": false
-        },
-        {
-          "word_id": "q_soru",
-          "turkish_word": "Soru (Kaş Kaldırma)",
-          "tid_grammar_note": "Soru eki yoktur; kaş hareketi gramer işlevi görür.",
-          "regional_variants": [
-            {
-              "region": "İstanbul Standardı",
-              "video_full_body": "",
-              "video_lip_closeups": ""
-            }
-          ],
-          "mnemonic_tip": "Evet/hayır sorusunda kaşları kaldır, açık uçlu soruda çat.",
-          "facial_expression_required": true
-        }
-      ]
-    }
-  ]
+    "lessons":  [
+                    {
+                        "lesson_id":  "tid_a1_temel_kelimeler",
+                        "title":  "Temel Kelimeler — Gerçek İşaret Videoları",
+                        "level":  "A1",
+                        "module":  "Modül 1: Başlangıç \u0026 Temeller (A1)",
+                        "words":  [
+                                      {
+                                          "word_id":  "w_ben",
+                                          "turkish_word":  "Ben",
+                                          "tid_grammar_note":  "Anlam: ben / kendim (I, Me).",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                        "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0001/degiske/01-01_cr_0.5.mp4",
+                                                                        "video_lip_closeups":  "https://tidsozluk.aile.gov.tr/vidz_proc/0001/degiske/01-02_cr_0.5.mp4"
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "w_o",
+                                          "turkish_word":  "O",
+                                          "tid_grammar_note":  "Anlam: o / şu (He, She, It, That).",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                        "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0002/degiske/02-01_cr_0.5.mp4",
+                                                                        "video_lip_closeups":  "https://tidsozluk.aile.gov.tr/vidz_proc/0002/degiske/02-02_cr_0.5.mp4"
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "w_sen",
+                                          "turkish_word":  "Sen",
+                                          "tid_grammar_note":  "Anlam: sen (You).",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                        "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0003/degiske/03-01_cr_0.5.mp4",
+                                                                        "video_lip_closeups":  "https://tidsozluk.aile.gov.tr/vidz_proc/0003/degiske/03-02_cr_0.5.mp4"
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "w_bu",
+                                          "turkish_word":  "Bu",
+                                          "tid_grammar_note":  "Anlam: bu (This).",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                        "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0004/degiske/04-01_cr_0.5.mp4",
+                                                                        "video_lip_closeups":  "https://tidsozluk.aile.gov.tr/vidz_proc/0004/degiske/04-02_cr_0.5.mp4"
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "w_gitmek",
+                                          "turkish_word":  "Gitmek",
+                                          "tid_grammar_note":  "Anlam: gitmek / ayrılmak (To go, To leave).",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                        "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0005/degiske/05-01_cr_0.5.mp4",
+                                                                        "video_lip_closeups":  "https://tidsozluk.aile.gov.tr/vidz_proc/0005/degiske/05-02_cr_0.5.mp4"
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "w_bilmek",
+                                          "turkish_word":  "Bilmek",
+                                          "tid_grammar_note":  "Anlam: bilmek (To know).",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                        "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0006/degiske/06-01_cr_0.5.mp4",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "w_var",
+                                          "turkish_word":  "Var",
+                                          "tid_grammar_note":  "Anlam: var / mevcut (There is).",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                        "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0007/degiske/07-01_cr_0.5.mp4",
+                                                                        "video_lip_closeups":  "https://tidsozluk.aile.gov.tr/vidz_proc/0007/degiske/07-02_cr_0.5.mp4"
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "w_olmak",
+                                          "turkish_word":  "Olmak",
+                                          "tid_grammar_note":  "Anlam: olmak / gerçekleşmek (To happen).",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                        "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0008/degiske/08-01_cr_0.5.mp4",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "w_yok",
+                                          "turkish_word":  "Yok",
+                                          "tid_grammar_note":  "Anlam: yok / mevcut değil (Absent).",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                        "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0009/degiske/09-01_cr_0.5.mp4",
+                                                                        "video_lip_closeups":  "https://tidsozluk.aile.gov.tr/vidz_proc/0009/degiske/09-02_cr_0.5.mp4"
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "w_ne",
+                                          "turkish_word":  "Ne",
+                                          "tid_grammar_note":  "Anlam: ne / hangi (What). Soru işaretidir; kaş hareketi eşlik eder.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                        "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0010/degiske/10-01_cr_0.5.mp4",
+                                                                        "video_lip_closeups":  "https://tidsozluk.aile.gov.tr/vidz_proc/0010/degiske/10-02_cr_0.5.mp4"
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                          "facial_expression_required":  true
+                                      }
+                                  ]
+                    },
+                    {
+                        "lesson_id":  "tid_a1_m1_l01",
+                        "title":  "Bölgesel Harf Varyantları",
+                        "level":  "A1",
+                        "module":  "Modül 1: Başlangıç \u0026 Temeller (A1)",
+                        "words":  [
+                                      {
+                                          "word_id":  "letter_k",
+                                          "turkish_word":  "K Harfi",
+                                          "tid_grammar_note":  "Çift el kullanılarak göğüs hizasında yapılır.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "İstanbul Standardı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    },
+                                                                    {
+                                                                        "region":  "Ankara Varyantı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Ellerinizi K harfinin iki kanadı gibi hayal edin.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "letter_e",
+                                          "turkish_word":  "E Harfi",
+                                          "tid_grammar_note":  "İstanbul ve Ankara gösterimleri parmak açısında farklılaşır.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "İstanbul Standardı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    },
+                                                                    {
+                                                                        "region":  "Ankara Varyantı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Parmakları avuç içine \u0027e\u0027 der gibi hafif kıvırın.",
+                                          "facial_expression_required":  false
+                                      }
+                                  ]
+                    },
+                    {
+                        "lesson_id":  "tid_a1_m1_l02",
+                        "title":  "Sayılar (0-9)",
+                        "level":  "A1",
+                        "module":  "Modül 1: Başlangıç \u0026 Temeller (A1)",
+                        "words":  [
+                                      {
+                                          "word_id":  "num_bir",
+                                          "turkish_word":  "Bir",
+                                          "tid_grammar_note":  "Tek parmak yukarı, avuç içi karşıya bakar.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "İstanbul Standardı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Bir numara: işaret parmağı gökyüzünü gösterir.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "num_iki",
+                                          "turkish_word":  "İki",
+                                          "tid_grammar_note":  "İşaret ve orta parmak açık (V), avuç içi karşıya.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "İstanbul Standardı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Zafer (V) işareti = iki.",
+                                          "facial_expression_required":  false
+                                      }
+                                  ]
+                    },
+                    {
+                        "lesson_id":  "tid_a1_m1_l03",
+                        "title":  "Temel Selamlaşma",
+                        "level":  "A1",
+                        "module":  "Modül 1: Başlangıç \u0026 Temeller (A1)",
+                        "words":  [
+                                      {
+                                          "word_id":  "greet_merhaba",
+                                          "turkish_word":  "Merhaba",
+                                          "tid_grammar_note":  "El alından dışa doğru açılır; gülümseme eşlik eder.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "İstanbul Standardı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Asker selamı verir gibi başlayıp eli dışa açın.",
+                                          "facial_expression_required":  true
+                                      },
+                                      {
+                                          "word_id":  "greet_tesekkur",
+                                          "turkish_word":  "Teşekkür Ederim",
+                                          "tid_grammar_note":  "El çeneden öne doğru uzatılır.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "İstanbul Standardı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Öpücük gönderir gibi eli çeneden öne savurun.",
+                                          "facial_expression_required":  true
+                                      }
+                                  ]
+                    },
+                    {
+                        "lesson_id":  "tid_a2_m2_l01",
+                        "title":  "Aile Üyeleri",
+                        "level":  "A2",
+                        "module":  "Modül 2: Günlük Yaşam \u0026 Çevre (A2)",
+                        "words":  [
+                                      {
+                                          "word_id":  "family_anne",
+                                          "turkish_word":  "Anne",
+                                          "tid_grammar_note":  "İşaret yanağa/çeneye yakın konumda yapılır.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "İstanbul Standardı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Anne şefkati: eli yanağa yaklaştırın.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "family_baba",
+                                          "turkish_word":  "Baba",
+                                          "tid_grammar_note":  "İşaret alın/şakak hizasında yapılır.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "İstanbul Standardı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Baba = alın hizası (şapka siperi gibi).",
+                                          "facial_expression_required":  false
+                                      }
+                                  ]
+                    },
+                    {
+                        "lesson_id":  "tid_b1_m3_l01",
+                        "title":  "TİD Cümle Dizilimi (Özne-Nesne-Yüklem)",
+                        "level":  "B1",
+                        "module":  "Modül 3: Gramer, Fiiller \u0026 Cümle (B1-B2)",
+                        "words":  [
+                                      {
+                                          "word_id":  "verb_gitmek",
+                                          "turkish_word":  "Gitmek",
+                                          "tid_grammar_note":  "Yön işaret ederek; zaman cümlenin başında verilir.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "İstanbul Standardı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Parmak gideceği yönü işaret eder.",
+                                          "facial_expression_required":  false
+                                      },
+                                      {
+                                          "word_id":  "q_soru",
+                                          "turkish_word":  "Soru (Kaş Kaldırma)",
+                                          "tid_grammar_note":  "Soru eki yoktur; kaş hareketi gramer işlevi görür.",
+                                          "regional_variants":  [
+                                                                    {
+                                                                        "region":  "İstanbul Standardı",
+                                                                        "video_full_body":  "",
+                                                                        "video_lip_closeups":  ""
+                                                                    }
+                                                                ],
+                                          "mnemonic_tip":  "Evet/hayır sorusunda kaşları kaldır, açık uçlu soruda çat.",
+                                          "facial_expression_required":  true
+                                      }
+                                  ]
+                    }
+                ]
 }

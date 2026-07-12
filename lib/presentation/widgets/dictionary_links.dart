@@ -4,13 +4,9 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_dimensions.dart';
 
-/// Bir kelimenin GERÇEK TİD işaret videosunu güvenilir/resmî sözlüklerde açar.
-///
-/// Not: Telif nedeniyle videolar uygulamaya gömülmez; kullanıcı doğrudan
-/// kaynağa yönlendirilir. Web'de yeni sekmede açılır.
+/// Gömülü videosu olmayan işaretler için: kelimeyi güvenilir/resmî sözlükte açar.
 ///  - SpreadTheSign: kelimeye birebir gider (Avrupa İşaret Dili Merkezi, TİD dahil).
 ///  - Aile Bakanlığı: T.C. Aile ve Sosyal Hizmetler Bakanlığı Güncel TİD Sözlüğü.
-///  - MEB: Millî Eğitim Bakanlığı TİD Portalı.
 class DictionaryLinks extends StatelessWidget {
   final String word;
   const DictionaryLinks({super.key, required this.word});
@@ -19,8 +15,6 @@ class DictionaryLinks extends StatelessWidget {
       'https://www.spreadthesign.com/tr.tr/search/?q=${Uri.encodeQueryComponent(word)}';
 
   String get _aileSozlukUrl => 'https://tidsozluk.aile.gov.tr/';
-
-  String get _mebSozlukUrl => 'https://tid.meb.gov.tr/';
 
   Future<void> _open(BuildContext context, String url) async {
     final uri = Uri.parse(url);
@@ -59,7 +53,7 @@ class DictionaryLinks extends StatelessWidget {
           ),
           const SizedBox(height: AppDimensions.xs),
           Text(
-            'Gerçek TİD videosu için güvenilir sözlükte aç:',
+            'Bu işaretin videosu güvenilir sözlükte:',
             style: Theme.of(context).textTheme.bodyMedium,
           ),
           const SizedBox(height: AppDimensions.md),
@@ -75,12 +69,7 @@ class DictionaryLinks extends StatelessWidget {
               OutlinedButton.icon(
                 onPressed: () => _open(context, _aileSozlukUrl),
                 icon: const Icon(Icons.account_balance, size: 18),
-                label: const Text('Aile Bakanlığı'),
-              ),
-              OutlinedButton.icon(
-                onPressed: () => _open(context, _mebSozlukUrl),
-                icon: const Icon(Icons.school, size: 18),
-                label: const Text('MEB Sözlüğü'),
+                label: const Text('Resmî Sözlük (Aile Bakanlığı)'),
               ),
             ],
           ),
