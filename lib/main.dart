@@ -1,14 +1,10 @@
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'core/theme/app_theme.dart';
-import 'data/datasources/firestore_lesson_datasource.dart';
 import 'data/datasources/local_seed_lesson_datasource.dart';
 import 'data/repositories/lesson_repository_impl.dart';
 import 'domain/repositories/lesson_repository.dart';
-import 'firebase_options.dart';
 import 'presentation/blocs/lesson/lesson_cubit.dart';
 import 'presentation/blocs/progress/progress_cubit.dart';
 import 'presentation/screens/home_screen.dart';
@@ -16,19 +12,11 @@ import 'presentation/screens/home_screen.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Firebase'i başlatmayı dene; yapılandırma yoksa (şablon) yerel seed verisine düş.
-  bool firebaseReady = false;
-  try {
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
-    );
-    firebaseReady = true;
-  } catch (e) {
-    debugPrint('Firebase başlatılamadı, yerel seed verisine düşülüyor: $e');
-  }
-
+  // NOT: Firebase yapilandirmasi sablon (yer tutucu) oldugu icin simdilik
+  // devre disi; uygulama dogrudan yerel seed verisiyle calisir. Gercek Firebase
+  // eklenince remote kaynagi yeniden baglanabilir.
   final LessonRepository lessonRepository = LessonRepositoryImpl(
-    remote: firebaseReady ? FirestoreLessonDataSource() : null,
+    remote: null,
     local: const LocalSeedLessonDataSource(),
   );
 
@@ -49,7 +37,7 @@ class TidApp extends StatelessWidget {
         BlocProvider(create: (_) => ProgressCubit()..load()),
       ],
       child: MaterialApp(
-        title: 'TİD Öğren',
+        title: 'TID Ogren',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.light,
         darkTheme: AppTheme.dark,
