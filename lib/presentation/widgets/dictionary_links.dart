@@ -9,7 +9,8 @@ import '../../core/constants/app_dimensions.dart';
 /// Not: Telif nedeniyle videolar uygulamaya gömülmez; kullanıcı doğrudan
 /// kaynağa yönlendirilir. Web'de yeni sekmede açılır.
 ///  - SpreadTheSign: kelimeye birebir gider (Avrupa İşaret Dili Merkezi, TİD dahil).
-///  - Resmî Sözlük: T.C. Aile ve Sosyal Hizmetler Bakanlığı Güncel TİD Sözlüğü.
+///  - Aile Bakanlığı: T.C. Aile ve Sosyal Hizmetler Bakanlığı Güncel TİD Sözlüğü.
+///  - MEB: Millî Eğitim Bakanlığı TİD Portalı.
 class DictionaryLinks extends StatelessWidget {
   final String word;
   const DictionaryLinks({super.key, required this.word});
@@ -17,7 +18,9 @@ class DictionaryLinks extends StatelessWidget {
   String get _spreadTheSignUrl =>
       'https://www.spreadthesign.com/tr.tr/search/?q=${Uri.encodeQueryComponent(word)}';
 
-  String get _resmiSozlukUrl => 'https://tidsozluk.aile.gov.tr/';
+  String get _aileSozlukUrl => 'https://tidsozluk.aile.gov.tr/';
+
+  String get _mebSozlukUrl => 'https://tid.meb.gov.tr/';
 
   Future<void> _open(BuildContext context, String url) async {
     final uri = Uri.parse(url);
@@ -70,9 +73,14 @@ class DictionaryLinks extends StatelessWidget {
                 label: const Text('İşaret videosu (SpreadTheSign)'),
               ),
               OutlinedButton.icon(
-                onPressed: () => _open(context, _resmiSozlukUrl),
+                onPressed: () => _open(context, _aileSozlukUrl),
                 icon: const Icon(Icons.account_balance, size: 18),
-                label: const Text('Resmî Sözlük'),
+                label: const Text('Aile Bakanlığı'),
+              ),
+              OutlinedButton.icon(
+                onPressed: () => _open(context, _mebSozlukUrl),
+                icon: const Icon(Icons.school, size: 18),
+                label: const Text('MEB Sözlüğü'),
               ),
             ],
           ),
