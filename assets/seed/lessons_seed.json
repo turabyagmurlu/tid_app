@@ -930,7 +930,7 @@
    "lesson_id": "auto_l13",
    "title": "Soru Kelimeleri",
    "level": "A1",
-   "module": "A1 Â· BaÅŸlangÄ±Ã§",
+   "module": "A1 · Başlangıç",
    "words": [
     {
      "word_id": "w_13_0",
@@ -1001,6 +1001,554 @@
      ],
      "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
      "facial_expression_required": true
+    }
+   ]
+  },
+  {
+   "lesson_id": "parmak_alfabesi",
+   "title": "Parmak Alfabesi Nedir?",
+   "level": "A1",
+   "module": "Parmak Alfabesi",
+   "words": [
+    {
+     "word_id": "alf_0",
+     "turkish_word": "Parmak Alfabesi",
+     "tid_grammar_note": "Parmak alfabesi (el alfabesi), 29 Türkçe harfin her biri için ayrı bir el şeklidir. DİKKAT: cümle kurmak için kullanılmaz. Sadece isimleri, yabancı kelimeleri veya işareti olmayan sözcükleri harf harf HECELEMEK için kullanılır. Günlük konuşma işaret kelimeleriyle yapılır.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Önce kelime işaretlerini öğren; alfabeyi isim hecelerken kullan.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "alf_1",
+     "turkish_word": "Ne zaman kullanılır?",
+     "tid_grammar_note": "Örnek: adını söylerken (T-U-R-A-B), bir şehir/marka adını, ya da TİD'de karşılığı olmayan bir kelimeyi hecelerken. Resmî sözlükte tek tek harf videoları bulunmadığından, harf şekillerini aşağıdaki sözlük bağlantılarından çalışabilirsin.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "İsim + yabancı kelime + kısaltma = parmak alfabesi.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram_0",
+   "title": "1. Zamirler (Kişiler)",
+   "level": "A1",
+   "module": "Dilbilgisi · Cümle Kurma",
+   "words": [
+    {
+     "word_id": "g0_0",
+     "turkish_word": "Ben",
+     "tid_grammar_note": "BEN: elini kendi göğsüne götürerek işaret et. Cümlenin öznesi genelde en başta gelir.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/01-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Kendini göster = BEN.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g0_1",
+     "turkish_word": "Sen",
+     "tid_grammar_note": "SEN: karşındaki kişiyi işaret et.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/03-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Karşını göster = SEN.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g0_2",
+     "turkish_word": "O",
+     "tid_grammar_note": "O: yanda veya uzakta birini/bir şeyi işaret et.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/02-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Uzağı göster = O.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g0_3",
+     "turkish_word": "Biz",
+     "tid_grammar_note": "BİZ: kendini ve diğerlerini kapsayan hareket.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/773-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Kendin + diğerleri = BİZ.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g0_4",
+     "turkish_word": "Bu",
+     "tid_grammar_note": "BU: yakındaki bir şeyi işaret et.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/04-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Yakını göster = BU.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram_1",
+   "title": "2. Kelime Sırası: Özne - Nesne - Yüklem",
+   "level": "A2",
+   "module": "Dilbilgisi · Cümle Kurma",
+   "words": [
+    {
+     "word_id": "g1_0",
+     "turkish_word": "Ben",
+     "tid_grammar_note": "Cümle: BEN + SU + İÇMEK = 'Ben su içiyorum'. Kural: TİD'de sıra Özne-Nesne-Yüklem. Önce ÖZNE gelir: BEN.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/01-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "1. Özne",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g1_1",
+     "turkish_word": "Su",
+     "tid_grammar_note": "Cümle: BEN + SU + İÇMEK. İkinci sırada NESNE gelir: SU (neyi?).",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/115-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "2. Nesne",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g1_2",
+     "turkish_word": "İçmek",
+     "tid_grammar_note": "Cümle: BEN + SU + İÇMEK. En sona YÜKLEM (fiil) gelir: İÇMEK. TİD'de fiil çekilmez, mastar halinde kalır.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/434-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "3. Yüklem (fiil sonda)",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram_2",
+   "title": "3. Soru Cümlesi (mimikle)",
+   "level": "A2",
+   "module": "Dilbilgisi · Cümle Kurma",
+   "words": [
+    {
+     "word_id": "g2_0",
+     "turkish_word": "Sen",
+     "tid_grammar_note": "Soru cümlesi: SEN + NE + İSTEMEK = 'Sen ne istiyorsun?'. Önce özne.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/03-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Özne: SEN",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g2_1",
+     "turkish_word": "Ne",
+     "tid_grammar_note": "Soru sorarken KAŞLARINI ÇAT ve başını hafif öne eğ. Mimik olmadan soru anlaşılmaz! Soru kelimesi (NE/KİM/NEREDE) genelde sona yakın gelir.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/10-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Kaşlar çatık = soru mimiği",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g2_2",
+     "turkish_word": "İstemek",
+     "tid_grammar_note": "Fiil sonda: İSTEMEK. Soru boyunca yüz ifaden 'soru' demeli.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/28-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Fiil + soru mimiği",
+     "facial_expression_required": true
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram_3",
+   "title": "4. Olumsuzluk: DEĞİL ve YOK",
+   "level": "A2",
+   "module": "Dilbilgisi · Cümle Kurma",
+   "words": [
+    {
+     "word_id": "g3_0",
+     "turkish_word": "Ben",
+     "tid_grammar_note": "Olumsuz cümle: BEN + BİLMEK + DEĞİL = 'Bilmiyorum'.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/01-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Özne: BEN",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g3_1",
+     "turkish_word": "Bilmek",
+     "tid_grammar_note": "Önce fiili yap: BİLMEK.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/06-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Fiil",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g3_2",
+     "turkish_word": "Değil",
+     "tid_grammar_note": "Sonra DEĞİL ile olumsuzla ve başını hafifçe iki yana salla (hayır mimiği).",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/52-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "DEĞİL + baş sallama",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g3_3",
+     "turkish_word": "Ekmek",
+     "tid_grammar_note": "Yokluk için: EKMEK + YOK = 'Ekmek yok'.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/529-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Nesne",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g3_4",
+     "turkish_word": "Yok",
+     "tid_grammar_note": "YOK: bir şeyin olmadığını/bulunmadığını anlatır. VAR'ın zıttıdır.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/09-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "YOK = mevcut değil",
+     "facial_expression_required": true
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram_4",
+   "title": "5. Zaman Cümlenin Başında",
+   "level": "B1",
+   "module": "Dilbilgisi · Cümle Kurma",
+   "words": [
+    {
+     "word_id": "g4_0",
+     "turkish_word": "Yarın",
+     "tid_grammar_note": "Cümle: YARIN + BEN + OKUL + GİTMEK = 'Yarın okula gideceğim'. Kural: ZAMAN kelimesi en BAŞTA gelir.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/331-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "1. Zaman (en başta)",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g4_1",
+     "turkish_word": "Ben",
+     "tid_grammar_note": "Zamandan sonra özne: BEN.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/01-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "2. Özne",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g4_2",
+     "turkish_word": "Okul",
+     "tid_grammar_note": "Sonra yer/nesne: OKUL.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/41-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "3. Yer",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g4_3",
+     "turkish_word": "Gitmek",
+     "tid_grammar_note": "En sonda fiil: GİTMEK. TİD'de gelecek zaman ayrı bir ek değildir; ZAMAN kelimesi (yarın) zamanı verir, fiil değişmez.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/05-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "4. Fiil",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram_5",
+   "title": "6. Sıfat İsimden Sonra",
+   "level": "B1",
+   "module": "Dilbilgisi · Cümle Kurma",
+   "words": [
+    {
+     "word_id": "g5_0",
+     "turkish_word": "Araba",
+     "tid_grammar_note": "Cümle: ARABA + BÜYÜK = 'Araba büyük'. Kural: TİD'de sıfat genelde isimden SONRA gelir.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/43-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Önce isim: ARABA",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g5_1",
+     "turkish_word": "Büyük",
+     "tid_grammar_note": "Sıfat: BÜYÜK. Önce nesne, sonra özelliği.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/118-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Sonra sıfat: BÜYÜK",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g5_2",
+     "turkish_word": "Ev",
+     "tid_grammar_note": "Başka örnek: EV + GÜZEL = 'Ev güzel'.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/73-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Önce isim: EV",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g5_3",
+     "turkish_word": "Güzel",
+     "tid_grammar_note": "Sıfat GÜZEL, isimden sonra gelir.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/14-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Sonra sıfat: GÜZEL",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram_6",
+   "title": "7. VAR / YOK ile Cümle",
+   "level": "A2",
+   "module": "Dilbilgisi · Cümle Kurma",
+   "words": [
+    {
+     "word_id": "g6_0",
+     "turkish_word": "Su",
+     "tid_grammar_note": "SU + VAR = 'Su var'. Bir şeyin varlığını/mevcut olduğunu anlatır.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/115-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Nesne + VAR",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g6_1",
+     "turkish_word": "Var",
+     "tid_grammar_note": "VAR: mevcut olmak, bulunmak.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/07-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "VAR = mevcut",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g6_2",
+     "turkish_word": "Para",
+     "tid_grammar_note": "PARA + YOK = 'Param yok'.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/45-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Nesne + YOK",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g6_3",
+     "turkish_word": "Yok",
+     "tid_grammar_note": "YOK: mevcut olmamak. Yüz ifaden de olumsuzluğu yansıtsın.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/09-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "YOK = mevcut değil",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram_7",
+   "title": "8. Durum Anlatmak: İyi / Kötü",
+   "level": "A2",
+   "module": "Dilbilgisi · Cümle Kurma",
+   "words": [
+    {
+     "word_id": "g7_0",
+     "turkish_word": "Ben",
+     "tid_grammar_note": "BEN + İYİ = 'Ben iyiyim'. Durumu anlatırken yüz ifaden de durumu yansıtsın.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/01-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Özne: BEN",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g7_1",
+     "turkish_word": "İyi",
+     "tid_grammar_note": "İYİ: olumlu durum. Söylerken hafifçe gülümse.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/33-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "İYİ + gülümseme",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g7_2",
+     "turkish_word": "O",
+     "tid_grammar_note": "O + KÖTÜ = 'O kötü / iyi değil'.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/02-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Özne: O",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g7_3",
+     "turkish_word": "Kötü",
+     "tid_grammar_note": "KÖTÜ: olumsuz durum. Yüz ifaden de olumsuz olsun.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/319-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "KÖTÜ + olumsuz mimik",
+     "facial_expression_required": false
     }
    ]
   },
