@@ -1,45 +1,2614 @@
 {
-  "lessons": [
+ "lessons": [
+  {
+   "lesson_id": "auto_l0",
+   "title": "Selamlaşma",
+   "level": "A1",
+   "module": "A1 · Başlangıç",
+   "words": [
     {
-      "lesson_id": "tid_a1_temel_kelimeler",
-      "title": "Temel Kelimeler — Gerçek İşaret Videoları",
-      "level": "A1",
-      "module": "Modül 1: Başlangıç & Temeller (A1)",
-      "words": [
-        { "word_id": "w_ben", "turkish_word": "Ben", "tid_grammar_note": "Anlam: ben / kendim (I, Me).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0001/degiske/01-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "w_o", "turkish_word": "O", "tid_grammar_note": "Anlam: o (He, She, It, That).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0002/degiske/02-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "w_sen", "turkish_word": "Sen", "tid_grammar_note": "Anlam: sen (You).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0003/degiske/03-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "w_bu", "turkish_word": "Bu", "tid_grammar_note": "Anlam: bu (This).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0004/degiske/04-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "w_gitmek", "turkish_word": "Gitmek", "tid_grammar_note": "Anlam: gitmek (To go).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0005/degiske/05-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "w_bilmek", "turkish_word": "Bilmek", "tid_grammar_note": "Anlam: bilmek (To know).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0006/degiske/06-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "w_var", "turkish_word": "Var", "tid_grammar_note": "Anlam: var / mevcut (There is).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0007/degiske/07-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "w_olmak", "turkish_word": "Olmak", "tid_grammar_note": "Anlam: olmak (To happen).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0008/degiske/08-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "w_yok", "turkish_word": "Yok", "tid_grammar_note": "Anlam: yok (Absent).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0009/degiske/09-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "w_ne", "turkish_word": "Ne", "tid_grammar_note": "Anlam: ne (What). Soru işaretidir; kaş hareketi eşlik eder.", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0010/degiske/10-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": true }
-      ]
+     "word_id": "w_0_0",
+     "turkish_word": "Merhaba",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0711/degiske/711-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
     },
     {
-      "lesson_id": "tid_a1_selamlasma",
-      "title": "Temel Selamlaşma",
-      "level": "A1",
-      "module": "Modül 1: Başlangıç & Temeller (A1)",
-      "words": [
-        { "word_id": "greet_merhaba", "turkish_word": "Merhaba", "tid_grammar_note": "Anlam: merhaba (Hello). Gülümseme eşlik eder.", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0711/degiske/711-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": true },
-        { "word_id": "greet_tesekkur", "turkish_word": "Teşekkür Ederim", "tid_grammar_note": "Anlam: teşekkür ederim (Thank you).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0630/degiske/630-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": true }
-      ]
+     "word_id": "w_0_1",
+     "turkish_word": "Teşekkür",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0630/degiske/630-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
     },
     {
-      "lesson_id": "tid_a2_aile",
-      "title": "Aile Üyeleri",
-      "level": "A2",
-      "module": "Modül 2: Günlük Yaşam & Çevre (A2)",
-      "words": [
-        { "word_id": "family_anne", "turkish_word": "Anne", "tid_grammar_note": "Anlam: anne (Mother).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0038/degiske/38-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "family_baba", "turkish_word": "Baba", "tid_grammar_note": "Anlam: baba (Father).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0025/degiske/25-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "family_kardes", "turkish_word": "Kardeş", "tid_grammar_note": "Anlam: kardeş (Sibling).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0124/degiske/124-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "family_aile", "turkish_word": "Aile", "tid_grammar_note": "Anlam: aile (Family).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0074/degiske/74-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false },
-        { "word_id": "family_arkadas", "turkish_word": "Arkadaş", "tid_grammar_note": "Anlam: arkadaş (Friend).", "regional_variants": [ { "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)", "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0055/degiske/55-01_cr_0.5.mp4", "video_lip_closeups": "" } ], "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.", "facial_expression_required": false }
-      ]
+     "word_id": "w_0_2",
+     "turkish_word": "Lütfen",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0488/degiske/488-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_0_3",
+     "turkish_word": "Evet",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0017/degiske/17-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_0_4",
+     "turkish_word": "Tamam",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0034/degiske/34-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
     }
-  ]
+   ]
+  },
+  {
+   "lesson_id": "auto_l1",
+   "title": "Sayılar",
+   "level": "A1",
+   "module": "A1 · Başlangıç",
+   "words": [
+    {
+     "word_id": "w_1_0",
+     "turkish_word": "Bir",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0051/degiske/51-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_1_1",
+     "turkish_word": "İki",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0122/degiske/122-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_1_2",
+     "turkish_word": "Üç",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0252/degiske/252-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_1_3",
+     "turkish_word": "Beş",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0537/degiske/537-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_1_4",
+     "turkish_word": "Altı",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0964/degiske/964-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_1_5",
+     "turkish_word": "Dokuz",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0656/degiske/656-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_1_6",
+     "turkish_word": "On",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0721/degiske/721-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l2",
+   "title": "Renkler",
+   "level": "A1",
+   "module": "A1 · Başlangıç",
+   "words": [
+    {
+     "word_id": "w_2_0",
+     "turkish_word": "Kırmızı",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0530/degiske/530-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_2_1",
+     "turkish_word": "Yeşil",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0691/degiske/691-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_2_2",
+     "turkish_word": "Beyaz",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0525/degiske/525-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_2_3",
+     "turkish_word": "Kahverengi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1787/degiske/1787-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l3",
+   "title": "Aile",
+   "level": "A1",
+   "module": "A1 · Başlangıç",
+   "words": [
+    {
+     "word_id": "w_3_0",
+     "turkish_word": "Anne",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0038/degiske/38-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_3_1",
+     "turkish_word": "Baba",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0025/degiske/25-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_3_2",
+     "turkish_word": "Kardeş",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0124/degiske/124-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_3_3",
+     "turkish_word": "Abla",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0343/degiske/343-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_3_4",
+     "turkish_word": "Dede",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0188/degiske/188-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_3_5",
+     "turkish_word": "Nine",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0712/degiske/712-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_3_6",
+     "turkish_word": "Aile",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0074/degiske/74-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_3_7",
+     "turkish_word": "Teyze",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0631/degiske/631-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l4",
+   "title": "Vücut",
+   "level": "A1",
+   "module": "A1 · Başlangıç",
+   "words": [
+    {
+     "word_id": "w_4_0",
+     "turkish_word": "Baş",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1685/degiske/1685-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_4_1",
+     "turkish_word": "Göz",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0213/degiske/213-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_4_2",
+     "turkish_word": "Kulak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0286/degiske/286-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_4_3",
+     "turkish_word": "Burun",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0410/degiske/410-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_4_4",
+     "turkish_word": "Ağız",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0356/degiske/356-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_4_5",
+     "turkish_word": "El",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0091/degiske/91-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_4_6",
+     "turkish_word": "Kol",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0242/degiske/242-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_4_7",
+     "turkish_word": "Ayak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0493/degiske/493-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_4_8",
+     "turkish_word": "Saç",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0227/degiske/227-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l5",
+   "title": "Yiyecek ve İçecek",
+   "level": "A1",
+   "module": "A1 · Başlangıç",
+   "words": [
+    {
+     "word_id": "w_5_0",
+     "turkish_word": "Ekmek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0529/degiske/529-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_5_1",
+     "turkish_word": "Su",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0115/degiske/115-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_5_2",
+     "turkish_word": "Çay",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0727/degiske/727-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_5_3",
+     "turkish_word": "Kahve",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1167/degiske/1167-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_5_4",
+     "turkish_word": "Yumurta",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0797/degiske/797-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_5_5",
+     "turkish_word": "Et",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0371/degiske/371-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l6",
+   "title": "Ev ve Eşyalar",
+   "level": "A1",
+   "module": "A1 · Başlangıç",
+   "words": [
+    {
+     "word_id": "w_6_0",
+     "turkish_word": "Ev",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0073/degiske/73-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_6_1",
+     "turkish_word": "Kapı",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0363/degiske/363-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_6_2",
+     "turkish_word": "Yatak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0796/degiske/796-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_6_3",
+     "turkish_word": "Oda",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0683/degiske/683-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_6_4",
+     "turkish_word": "Banyo",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1216/degiske/1216-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l7",
+   "title": "Temel Fiiller",
+   "level": "A1",
+   "module": "A1 · Başlangıç",
+   "words": [
+    {
+     "word_id": "w_7_0",
+     "turkish_word": "Gitmek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0005/degiske/05-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_7_1",
+     "turkish_word": "Gelmek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0020/degiske/20-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_7_2",
+     "turkish_word": "İçmek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0434/degiske/434-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_7_3",
+     "turkish_word": "Uyumak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0284/degiske/284-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_7_4",
+     "turkish_word": "Oturmak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0103/degiske/103-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_7_5",
+     "turkish_word": "Bakmak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0013/degiske/13-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_7_6",
+     "turkish_word": "Vermek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0018/degiske/18-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_7_7",
+     "turkish_word": "Almak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0044/degiske/44-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l8",
+   "title": "Zaman ve Günler",
+   "level": "A1",
+   "module": "A1 · Başlangıç",
+   "words": [
+    {
+     "word_id": "w_8_0",
+     "turkish_word": "Gün",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0109/degiske/109-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_8_1",
+     "turkish_word": "Hafta",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0277/degiske/277-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_8_2",
+     "turkish_word": "Ay",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0164/degiske/164-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_8_3",
+     "turkish_word": "Yıl",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0047/degiske/47-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_8_4",
+     "turkish_word": "Saat",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0084/degiske/84-02_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_8_5",
+     "turkish_word": "Dakika",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0137/degiske/137-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_8_6",
+     "turkish_word": "Sabah",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0282/degiske/282-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_8_7",
+     "turkish_word": "Akşam",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0258/degiske/258-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_8_8",
+     "turkish_word": "Gece",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0733/degiske/733-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l9",
+   "title": "Hava ve Doğa",
+   "level": "A2",
+   "module": "A2 · Temel",
+   "words": [
+    {
+     "word_id": "w_9_0",
+     "turkish_word": "Güneş",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1038/degiske/1038-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_9_1",
+     "turkish_word": "Yağmur",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0586/degiske/586-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_9_2",
+     "turkish_word": "Kar",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1169/degiske/1169-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_9_3",
+     "turkish_word": "Bulut",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1704/degiske/1704-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_9_4",
+     "turkish_word": "Deniz",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0204/degiske/204-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_9_5",
+     "turkish_word": "Dağ",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0805/degiske/805-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_9_6",
+     "turkish_word": "Çiçek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0923/degiske/923-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l10",
+   "title": "Hayvanlar",
+   "level": "A2",
+   "module": "A2 · Temel",
+   "words": [
+    {
+     "word_id": "w_10_0",
+     "turkish_word": "Kedi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0644/degiske/644-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_10_1",
+     "turkish_word": "Köpek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1175/degiske/1175-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_10_2",
+     "turkish_word": "Kuş",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0664/degiske/664-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_10_3",
+     "turkish_word": "At",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1014/degiske/1014-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_10_4",
+     "turkish_word": "Balık",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0245/degiske/245-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_10_5",
+     "turkish_word": "Aslan",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1072/degiske/1072-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l11",
+   "title": "Duygular",
+   "level": "A2",
+   "module": "A2 · Temel",
+   "words": [
+    {
+     "word_id": "w_11_0",
+     "turkish_word": "Mutlu",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0237/degiske/237-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_11_1",
+     "turkish_word": "Korku",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1347/degiske/1347-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_11_2",
+     "turkish_word": "Heyecan",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0325/degiske/325-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l12",
+   "title": "Sıfatlar",
+   "level": "A2",
+   "module": "A2 · Temel",
+   "words": [
+    {
+     "word_id": "w_12_0",
+     "turkish_word": "Büyük",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0118/degiske/118-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_12_1",
+     "turkish_word": "Küçük",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0142/degiske/142-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_12_2",
+     "turkish_word": "Uzun",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0243/degiske/243-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_12_3",
+     "turkish_word": "Kısa",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0173/degiske/173-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_12_4",
+     "turkish_word": "Sıcak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0507/degiske/507-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_12_5",
+     "turkish_word": "Soğuk",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0685/degiske/685-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_12_6",
+     "turkish_word": "Yeni",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0126/degiske/126-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_12_7",
+     "turkish_word": "Eski",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0031/degiske/31-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_12_8",
+     "turkish_word": "Güzel",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0014/degiske/14-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_12_9",
+     "turkish_word": "Çirkin",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0924/degiske/924-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l13",
+   "title": "Soru Kelimeleri",
+   "level": "A2",
+   "module": "A2 · Temel",
+   "words": [
+    {
+     "word_id": "w_13_0",
+     "turkish_word": "Ne",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0010/degiske/10-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_13_1",
+     "turkish_word": "Kim",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0247/degiske/247-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_13_2",
+     "turkish_word": "Neden",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0205/degiske/205-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_13_3",
+     "turkish_word": "Hangi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0470/degiske/470-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_13_4",
+     "turkish_word": "Kaç",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0236/degiske/236-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l14",
+   "title": "Daha Fazla Fiil",
+   "level": "A2",
+   "module": "A2 · Temel",
+   "words": [
+    {
+     "word_id": "w_14_0",
+     "turkish_word": "Koşmak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0380/degiske/380-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_14_1",
+     "turkish_word": "Okumak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0076/degiske/76-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_14_2",
+     "turkish_word": "Yazmak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0062/degiske/62-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_14_3",
+     "turkish_word": "Konuşmak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0019/degiske/19-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_14_4",
+     "turkish_word": "Dinlemek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0453/degiske/453-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_14_5",
+     "turkish_word": "Görmek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0026/degiske/26-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_14_6",
+     "turkish_word": "Sevmek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0046/degiske/46-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_14_7",
+     "turkish_word": "İstemek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0028/degiske/28-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_14_8",
+     "turkish_word": "Bilmek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0006/degiske/06-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l15",
+   "title": "Meslekler",
+   "level": "B1",
+   "module": "B1 · Orta",
+   "words": [
+    {
+     "word_id": "w_15_0",
+     "turkish_word": "Doktor",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0157/degiske/157-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_15_1",
+     "turkish_word": "Öğretmen",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0094/degiske/94-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_15_2",
+     "turkish_word": "Polis",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0328/degiske/328-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_15_3",
+     "turkish_word": "Aşçı",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1924/degiske/1924-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_15_4",
+     "turkish_word": "Avukat",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1015/degiske/1015-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l16",
+   "title": "Okul ve Eğitim",
+   "level": "B1",
+   "module": "B1 · Orta",
+   "words": [
+    {
+     "word_id": "w_16_0",
+     "turkish_word": "Okul",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0041/degiske/41-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_16_1",
+     "turkish_word": "Kitap",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0061/degiske/61-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_16_2",
+     "turkish_word": "Kalem",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0782/degiske/782-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_16_3",
+     "turkish_word": "Defter",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0608/degiske/608-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_16_4",
+     "turkish_word": "Sınıf",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0211/degiske/211-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l17",
+   "title": "Ulaşım",
+   "level": "B1",
+   "module": "B1 · Orta",
+   "words": [
+    {
+     "word_id": "w_17_0",
+     "turkish_word": "Araba",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0043/degiske/43-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_17_1",
+     "turkish_word": "Otobüs",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0181/degiske/181-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_17_2",
+     "turkish_word": "Tren",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0322/degiske/322-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_17_3",
+     "turkish_word": "Uçak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0146/degiske/146-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_17_4",
+     "turkish_word": "Gemi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1755/degiske/1755-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_17_5",
+     "turkish_word": "Bisiklet",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0676/degiske/676-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_17_6",
+     "turkish_word": "Taksi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0490/degiske/490-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_17_7",
+     "turkish_word": "Yol",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0096/degiske/96-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_17_8",
+     "turkish_word": "Köprü",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0296/degiske/296-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l18",
+   "title": "Şehir ve Mekanlar",
+   "level": "B1",
+   "module": "B1 · Orta",
+   "words": [
+    {
+     "word_id": "w_18_0",
+     "turkish_word": "Şehir",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1645/degiske/1645-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_18_1",
+     "turkish_word": "Sokak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0626/degiske/626-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_18_2",
+     "turkish_word": "Hastane",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0318/degiske/318-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_18_3",
+     "turkish_word": "Cami",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0590/degiske/590-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_18_4",
+     "turkish_word": "Banka",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0875/degiske/875-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l19",
+   "title": "Alışveriş ve Para",
+   "level": "B1",
+   "module": "B1 · Orta",
+   "words": [
+    {
+     "word_id": "w_19_0",
+     "turkish_word": "Para",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0045/degiske/45-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_19_1",
+     "turkish_word": "Ucuz",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0653/degiske/653-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_19_2",
+     "turkish_word": "Pahalı",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0791/degiske/791-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_19_3",
+     "turkish_word": "Satmak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0567/degiske/567-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_19_4",
+     "turkish_word": "İndirim",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0416/degiske/416-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_19_5",
+     "turkish_word": "Çanta",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0976/degiske/976-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l20",
+   "title": "Sağlık",
+   "level": "B2",
+   "module": "B2 · Orta-İleri",
+   "words": [
+    {
+     "word_id": "w_20_0",
+     "turkish_word": "Hasta",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0054/degiske/54-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_20_1",
+     "turkish_word": "İlaç",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0889/degiske/889-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_20_2",
+     "turkish_word": "Ateş",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0746/degiske/746-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_20_3",
+     "turkish_word": "Ağrı",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1135/degiske/1135-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_20_4",
+     "turkish_word": "İyileşmek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1165/degiske/1165-02_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_20_5",
+     "turkish_word": "Kan",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0479/degiske/479-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l21",
+   "title": "İletişim",
+   "level": "B2",
+   "module": "B2 · Orta-İleri",
+   "words": [
+    {
+     "word_id": "w_21_0",
+     "turkish_word": "Telefon",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0053/degiske/53-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_21_1",
+     "turkish_word": "Mektup",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0442/degiske/442-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_21_2",
+     "turkish_word": "Mesaj",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0320/degiske/320-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_21_3",
+     "turkish_word": "İnternet",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0369/degiske/369-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_21_4",
+     "turkish_word": "Bilgisayar",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0193/degiske/193-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_21_5",
+     "turkish_word": "Konu",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0308/degiske/308-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_21_6",
+     "turkish_word": "Cevap",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0397/degiske/397-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_21_7",
+     "turkish_word": "Bilgi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0451/degiske/451-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l22",
+   "title": "Zaman Zarfları",
+   "level": "B2",
+   "module": "B2 · Orta-İleri",
+   "words": [
+    {
+     "word_id": "w_22_0",
+     "turkish_word": "Bugün",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0605/degiske/605-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_1",
+     "turkish_word": "Yarın",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0331/degiske/331-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_2",
+     "turkish_word": "Şimdi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0027/degiske/27-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_3",
+     "turkish_word": "Sonra",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0077/degiske/77-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_4",
+     "turkish_word": "Önce",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0060/degiske/60-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_5",
+     "turkish_word": "Bazen",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0101/degiske/101-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_6",
+     "turkish_word": "Hiç",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0029/degiske/29-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_7",
+     "turkish_word": "Hemen",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0133/degiske/133-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l23",
+   "title": "Soyut Kavramlar",
+   "level": "B2",
+   "module": "B2 · Orta-İleri",
+   "words": [
+    {
+     "word_id": "w_23_0",
+     "turkish_word": "Düşünce",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0334/degiske/334-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_23_1",
+     "turkish_word": "Gerçek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0432/degiske/432-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_23_2",
+     "turkish_word": "Barış",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1695/degiske/1695-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_23_3",
+     "turkish_word": "Akıl",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0196/degiske/196-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_23_4",
+     "turkish_word": "Güven",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1994/degiske/1994-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l24",
+   "title": "Duygu ve Düşünce",
+   "level": "C1",
+   "module": "C1 · İleri",
+   "words": [
+    {
+     "word_id": "w_24_0",
+     "turkish_word": "Hayal",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0392/degiske/392-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_24_1",
+     "turkish_word": "Karar",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0373/degiske/373-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_24_2",
+     "turkish_word": "Merak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0171/degiske/171-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_24_3",
+     "turkish_word": "Cesaret",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1079/degiske/1079-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_24_4",
+     "turkish_word": "Sabır",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0474/degiske/474-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l25",
+   "title": "Toplum ve Değerler",
+   "level": "C1",
+   "module": "C1 · İleri",
+   "words": [
+    {
+     "word_id": "w_25_0",
+     "turkish_word": "Toplum",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0673/degiske/673-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_25_1",
+     "turkish_word": "Adalet",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1296/degiske/1296-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_25_2",
+     "turkish_word": "Hak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0382/degiske/382-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_25_3",
+     "turkish_word": "Görev",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0577/degiske/577-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l26",
+   "title": "Sanat ve Kültür",
+   "level": "C2",
+   "module": "C2 · Uzman",
+   "words": [
+    {
+     "word_id": "w_26_0",
+     "turkish_word": "Kültür",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0280/degiske/280-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_26_1",
+     "turkish_word": "Resim",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0259/degiske/259-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_26_2",
+     "turkish_word": "Tarih",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0491/degiske/491-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_26_3",
+     "turkish_word": "Gelenek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/1555/degiske/1555-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  }
+ ]
 }
