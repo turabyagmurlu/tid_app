@@ -235,72 +235,120 @@
                         "title":  "Temel Selamlaşma",
                         "level":  "A1",
                         "module":  "Modül 1: Başlangıç \u0026 Temeller (A1)",
-                        "words":  [
-                                      {
-                                          "word_id":  "greet_merhaba",
-                                          "turkish_word":  "Merhaba",
-                                          "tid_grammar_note":  "El alından dışa doğru açılır; gülümseme eşlik eder.",
-                                          "regional_variants":  [
-                                                                    {
-                                                                        "region":  "İstanbul Standardı",
-                                                                        "video_full_body":  "",
-                                                                        "video_lip_closeups":  ""
-                                                                    }
-                                                                ],
-                                          "mnemonic_tip":  "Asker selamı verir gibi başlayıp eli dışa açın.",
-                                          "facial_expression_required":  true
-                                      },
-                                      {
-                                          "word_id":  "greet_tesekkur",
-                                          "turkish_word":  "Teşekkür Ederim",
-                                          "tid_grammar_note":  "El çeneden öne doğru uzatılır.",
-                                          "regional_variants":  [
-                                                                    {
-                                                                        "region":  "İstanbul Standardı",
-                                                                        "video_full_body":  "",
-                                                                        "video_lip_closeups":  ""
-                                                                    }
-                                                                ],
-                                          "mnemonic_tip":  "Öpücük gönderir gibi eli çeneden öne savurun.",
-                                          "facial_expression_required":  true
-                                      }
-                                  ]
+                        "words":  {
+                                      "value":  [
+                                                    {
+                                                        "word_id":  "greet_merhaba",
+                                                        "turkish_word":  "Merhaba",
+                                                        "tid_grammar_note":  "Anlam: merhaba (Hello). El alından dışa doğru açılır; gülümseme eşlik eder.",
+                                                        "regional_variants":  [
+                                                                                  {
+                                                                                      "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                                      "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0711/degiske/711-01_cr_0.5.mp4",
+                                                                                      "video_lip_closeups":  ""
+                                                                                  }
+                                                                              ],
+                                                        "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                                        "facial_expression_required":  true
+                                                    },
+                                                    {
+                                                        "word_id":  "greet_tesekkur",
+                                                        "turkish_word":  "Teşekkür Ederim",
+                                                        "tid_grammar_note":  "Anlam: teşekkür ederim (Thank you).",
+                                                        "regional_variants":  [
+                                                                                  {
+                                                                                      "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                                      "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0630/degiske/630-01_cr_0.5.mp4",
+                                                                                      "video_lip_closeups":  ""
+                                                                                  }
+                                                                              ],
+                                                        "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                                        "facial_expression_required":  true
+                                                    }
+                                                ],
+                                      "Count":  2
+                                  }
                     },
                     {
                         "lesson_id":  "tid_a2_m2_l01",
                         "title":  "Aile Üyeleri",
                         "level":  "A2",
                         "module":  "Modül 2: Günlük Yaşam \u0026 Çevre (A2)",
-                        "words":  [
-                                      {
-                                          "word_id":  "family_anne",
-                                          "turkish_word":  "Anne",
-                                          "tid_grammar_note":  "İşaret yanağa/çeneye yakın konumda yapılır.",
-                                          "regional_variants":  [
-                                                                    {
-                                                                        "region":  "İstanbul Standardı",
-                                                                        "video_full_body":  "",
-                                                                        "video_lip_closeups":  ""
-                                                                    }
-                                                                ],
-                                          "mnemonic_tip":  "Anne şefkati: eli yanağa yaklaştırın.",
-                                          "facial_expression_required":  false
-                                      },
-                                      {
-                                          "word_id":  "family_baba",
-                                          "turkish_word":  "Baba",
-                                          "tid_grammar_note":  "İşaret alın/şakak hizasında yapılır.",
-                                          "regional_variants":  [
-                                                                    {
-                                                                        "region":  "İstanbul Standardı",
-                                                                        "video_full_body":  "",
-                                                                        "video_lip_closeups":  ""
-                                                                    }
-                                                                ],
-                                          "mnemonic_tip":  "Baba = alın hizası (şapka siperi gibi).",
-                                          "facial_expression_required":  false
-                                      }
-                                  ]
+                        "words":  {
+                                      "value":  [
+                                                    {
+                                                        "word_id":  "family_anne",
+                                                        "turkish_word":  "Anne",
+                                                        "tid_grammar_note":  "Anlam: anne (Mother).",
+                                                        "regional_variants":  [
+                                                                                  {
+                                                                                      "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                                      "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0038/degiske/38-01_cr_0.5.mp4",
+                                                                                      "video_lip_closeups":  ""
+                                                                                  }
+                                                                              ],
+                                                        "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                                        "facial_expression_required":  false
+                                                    },
+                                                    {
+                                                        "word_id":  "family_baba",
+                                                        "turkish_word":  "Baba",
+                                                        "tid_grammar_note":  "Anlam: baba (Father).",
+                                                        "regional_variants":  [
+                                                                                  {
+                                                                                      "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                                      "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0025/degiske/25-01_cr_0.5.mp4",
+                                                                                      "video_lip_closeups":  ""
+                                                                                  }
+                                                                              ],
+                                                        "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                                        "facial_expression_required":  false
+                                                    },
+                                                    {
+                                                        "word_id":  "family_kardes",
+                                                        "turkish_word":  "Kardeş",
+                                                        "tid_grammar_note":  "Anlam: kardeş (Sibling).",
+                                                        "regional_variants":  [
+                                                                                  {
+                                                                                      "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                                      "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0124/degiske/124-01_cr_0.5.mp4",
+                                                                                      "video_lip_closeups":  ""
+                                                                                  }
+                                                                              ],
+                                                        "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                                        "facial_expression_required":  false
+                                                    },
+                                                    {
+                                                        "word_id":  "family_aile",
+                                                        "turkish_word":  "Aile",
+                                                        "tid_grammar_note":  "Anlam: aile (Family).",
+                                                        "regional_variants":  [
+                                                                                  {
+                                                                                      "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                                      "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0074/degiske/74-01_cr_0.5.mp4",
+                                                                                      "video_lip_closeups":  ""
+                                                                                  }
+                                                                              ],
+                                                        "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                                        "facial_expression_required":  false
+                                                    },
+                                                    {
+                                                        "word_id":  "family_arkadas",
+                                                        "turkish_word":  "Arkadaş",
+                                                        "tid_grammar_note":  "Anlam: arkadaş (Friend).",
+                                                        "regional_variants":  [
+                                                                                  {
+                                                                                      "region":  "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+                                                                                      "video_full_body":  "https://tidsozluk.aile.gov.tr/vidz_proc/0055/degiske/55-01_cr_0.5.mp4",
+                                                                                      "video_lip_closeups":  ""
+                                                                                  }
+                                                                              ],
+                                                        "mnemonic_tip":  "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+                                                        "facial_expression_required":  false
+                                                    }
+                                                ],
+                                      "Count":  5
+                                  }
                     },
                     {
                         "lesson_id":  "tid_b1_m3_l01",
