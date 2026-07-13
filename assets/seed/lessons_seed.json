@@ -927,6 +927,84 @@
    ]
   },
   {
+   "lesson_id": "auto_l13",
+   "title": "Soru Kelimeleri",
+   "level": "A1",
+   "module": "A1 Â· BaÅŸlangÄ±Ã§",
+   "words": [
+    {
+     "word_id": "w_13_0",
+     "turkish_word": "Ne",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0010/degiske/10-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_13_1",
+     "turkish_word": "Kim",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0247/degiske/247-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_13_2",
+     "turkish_word": "Neden",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0205/degiske/205-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_13_3",
+     "turkish_word": "Hangi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0470/degiske/470-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "w_13_4",
+     "turkish_word": "Kaç",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0236/degiske/236-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": true
+    }
+   ]
+  },
+  {
    "lesson_id": "auto_l9",
    "title": "Hava ve Doğa",
    "level": "A2",
@@ -1323,84 +1401,6 @@
    ]
   },
   {
-   "lesson_id": "auto_l13",
-   "title": "Soru Kelimeleri",
-   "level": "A2",
-   "module": "A2 · Temel",
-   "words": [
-    {
-     "word_id": "w_13_0",
-     "turkish_word": "Ne",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0010/degiske/10-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": true
-    },
-    {
-     "word_id": "w_13_1",
-     "turkish_word": "Kim",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0247/degiske/247-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": true
-    },
-    {
-     "word_id": "w_13_2",
-     "turkish_word": "Neden",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0205/degiske/205-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": true
-    },
-    {
-     "word_id": "w_13_3",
-     "turkish_word": "Hangi",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0470/degiske/470-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": true
-    },
-    {
-     "word_id": "w_13_4",
-     "turkish_word": "Kaç",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0236/degiske/236-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": true
-    }
-   ]
-  },
-  {
    "lesson_id": "auto_l14",
    "title": "Daha Fazla Fiil",
    "level": "A2",
@@ -1526,6 +1526,126 @@
       {
        "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
        "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0006/degiske/06-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "auto_l22",
+   "title": "Zaman Zarfları",
+   "level": "A2",
+   "module": "A2 · Temel",
+   "words": [
+    {
+     "word_id": "w_22_0",
+     "turkish_word": "Bugün",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0605/degiske/605-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_1",
+     "turkish_word": "Yarın",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0331/degiske/331-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_2",
+     "turkish_word": "Şimdi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0027/degiske/27-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_3",
+     "turkish_word": "Sonra",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0077/degiske/77-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_4",
+     "turkish_word": "Önce",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0060/degiske/60-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_5",
+     "turkish_word": "Bazen",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0101/degiske/101-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_6",
+     "turkish_word": "Hiç",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0029/degiske/29-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "w_22_7",
+     "turkish_word": "Hemen",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
+       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0133/degiske/133-01_cr_0.5.mp4",
        "video_lip_closeups": ""
       }
      ],
@@ -2198,126 +2318,6 @@
       {
        "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
        "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0451/degiske/451-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": false
-    }
-   ]
-  },
-  {
-   "lesson_id": "auto_l22",
-   "title": "Zaman Zarfları",
-   "level": "B2",
-   "module": "B2 · Orta-İleri",
-   "words": [
-    {
-     "word_id": "w_22_0",
-     "turkish_word": "Bugün",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0605/degiske/605-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": false
-    },
-    {
-     "word_id": "w_22_1",
-     "turkish_word": "Yarın",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0331/degiske/331-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": false
-    },
-    {
-     "word_id": "w_22_2",
-     "turkish_word": "Şimdi",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0027/degiske/27-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": false
-    },
-    {
-     "word_id": "w_22_3",
-     "turkish_word": "Sonra",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0077/degiske/77-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": false
-    },
-    {
-     "word_id": "w_22_4",
-     "turkish_word": "Önce",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0060/degiske/60-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": false
-    },
-    {
-     "word_id": "w_22_5",
-     "turkish_word": "Bazen",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0101/degiske/101-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": false
-    },
-    {
-     "word_id": "w_22_6",
-     "turkish_word": "Hiç",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0029/degiske/29-01_cr_0.5.mp4",
-       "video_lip_closeups": ""
-      }
-     ],
-     "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
-     "facial_expression_required": false
-    },
-    {
-     "word_id": "w_22_7",
-     "turkish_word": "Hemen",
-     "tid_grammar_note": "",
-     "regional_variants": [
-      {
-       "region": "Resmî TİD Sözlüğü (Aile Bakanlığı)",
-       "video_full_body": "https://tidsozluk.aile.gov.tr/vidz_proc/0133/degiske/133-01_cr_0.5.mp4",
        "video_lip_closeups": ""
       }
      ],
