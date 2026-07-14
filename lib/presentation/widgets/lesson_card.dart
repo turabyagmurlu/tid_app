@@ -32,22 +32,37 @@ class LessonCard extends StatelessWidget {
           padding: const EdgeInsets.all(AppDimensions.md),
           child: Row(
             children: [
-              Container(
-                width: 46,
-                height: 46,
-                decoration: BoxDecoration(
-                  color: AppColors.primary,
-                  borderRadius: BorderRadius.circular(AppDimensions.radiusSm),
-                ),
-                alignment: Alignment.center,
-                child: Text(
-                  lesson.level,
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w800,
+              Builder(builder: (context) {
+                final lc = AppColors.forLevel(lesson.level);
+                return Container(
+                  width: 48,
+                  height: 48,
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      colors: AppColors.gradientFor(lc),
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                    ),
+                    borderRadius: BorderRadius.circular(14),
+                    boxShadow: [
+                      BoxShadow(
+                        color: lc.withOpacity(0.5),
+                        blurRadius: 10,
+                        offset: const Offset(0, 4),
+                      ),
+                    ],
                   ),
-                ),
-              ),
+                  alignment: Alignment.center,
+                  child: Text(
+                    lesson.level,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w900,
+                      fontSize: 15,
+                    ),
+                  ),
+                );
+              }),
               const SizedBox(width: AppDimensions.md),
               Expanded(
                 child: Column(

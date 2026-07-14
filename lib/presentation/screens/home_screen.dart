@@ -8,6 +8,7 @@ import '../../data/models/lesson_model.dart';
 import '../blocs/lesson/lesson_cubit.dart';
 import '../blocs/progress/progress_cubit.dart';
 import '../blocs/srs/srs_cubit.dart';
+import '../widgets/gradient_hero_card.dart';
 import '../widgets/lesson_card.dart';
 import '../widgets/streak_banner.dart';
 import '../blocs/settings/settings_cubit.dart';
@@ -119,18 +120,17 @@ class _LessonList extends StatelessWidget {
         const SizedBox(height: AppDimensions.md),
         _ReviewTodayEntry(lessons: lessons),
         const SizedBox(height: AppDimensions.sm),
-        Card(
-          color: AppColors.primary.withOpacity(0.12),
-          child: ListTile(
-            leading: const Icon(Icons.back_hand, color: AppColors.primary),
-            title: const Text('El Takibi (Deneysel)'),
-            subtitle: const Text(
-                'Kamerada parmak noktalarını canlı gör, işaretini kontrol et'),
-            trailing: const Icon(Icons.chevron_right),
-            onTap: () => Navigator.of(context).push(MaterialPageRoute(
-              builder: (_) => const HandTrackingScreen(),
-            )),
-          ),
+        GradientHeroCard(
+          icon: Icons.back_hand,
+          title: 'El Takibi',
+          subtitle: 'Kamerada parmaklarını say, işaretini kontrol et',
+          colors: const [Color(0xFF06B6D4), Color(0xFF3B82F6)],
+          badge: _pill('Deneysel'),
+          trailing:
+              const Icon(Icons.chevron_right, color: Colors.white70),
+          onTap: () => Navigator.of(context).push(MaterialPageRoute(
+            builder: (_) => const HandTrackingScreen(),
+          )),
         ),
         const SizedBox(height: AppDimensions.lg),
         Text(AppStrings.modulesTitle,
@@ -139,12 +139,19 @@ class _LessonList extends StatelessWidget {
         for (final module in modules) ...[
           Padding(
             padding: const EdgeInsets.only(
-              top: AppDimensions.md,
+              top: AppDimensions.lg,
               bottom: AppDimensions.sm,
             ),
             child: Row(
               children: [
-                Container(width: 4, height: 22, color: AppColors.primary),
+                Container(
+                  width: 6,
+                  height: 24,
+                  decoration: BoxDecoration(
+                    color: AppColors.forLevel(byModule[module]!.first.level),
+                    borderRadius: BorderRadius.circular(3),
+                  ),
+                ),
                 const SizedBox(width: AppDimensions.sm),
                 Expanded(
                   child: Text(module,
@@ -200,23 +207,36 @@ class _ReviewTodayEntryState extends State<_ReviewTodayEntry> {
     return BlocBuilder<SrsCubit, SrsState>(
       builder: (context, s) {
         final due = s.dueWords.length;
-        return Card(
-          color: AppColors.accent.withOpacity(0.14),
-          child: ListTile(
-            leading: const Icon(Icons.repeat, color: AppColors.accent),
-            title: const Text('Bugün Tekrar'),
-            subtitle: Text(due > 0
-                ? '$due kelime tekrar için hazır'
-                : 'Kelimeleri "Öğrendim" işaretle, tekrar burada birikir'),
-            trailing: const Icon(Icons.chevron_right),
-            onTap: () => Navigator.of(context).push(MaterialPageRoute(
-              builder: (_) => const ReviewTodayScreen(),
-            )),
-          ),
+        return GradientHeroCard(
+          icon: Icons.repeat,
+          title: 'Bugün Tekrar',
+          subtitle: due > 0
+              ? '$due kelime tekrar için hazır'
+              : 'Kelimeleri "Öğrendim" işaretle, tekrar birikir',
+          colors: const [Color(0xFF8B5CF6), Color(0xFF6366F1)],
+          badge: due > 0 ? _pill('$due') : null,
+          trailing: const Icon(Icons.chevron_right, color: Colors.white70),
+          onTap: () => Navigator.of(context).push(MaterialPageRoute(
+            builder: (_) => const ReviewTodayScreen(),
+          )),
         );
       },
     );
   }
+}
+
+/// Küçük yuvarlak etiket (rozet).
+Widget _pill(String text) {
+  return Container(
+    padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 3),
+    decoration: BoxDecoration(
+      color: Colors.white.withOpacity(0.25),
+      borderRadius: BorderRadius.circular(30),
+    ),
+    child: Text(text,
+        style: const TextStyle(
+            color: Colors.white, fontSize: 12, fontWeight: FontWeight.w800)),
+  );
 }
 
 class _ErrorView extends StatelessWidget {

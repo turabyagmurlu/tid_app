@@ -36,4 +36,42 @@ class AppColors {
   // Mimik / overlay geri bildirim kutuları (yüksek görünürlük)
   static const Color handBox = Color(0xFF00E5FF);
   static const Color faceBox = Color(0xFFFFEA00);
+
+  // Seviye renk-kodlama (canlı, ilerleyen palet)
+  static const Color levelA1 = Color(0xFF14B8A6); // teal
+  static const Color levelA2 = Color(0xFF3B82F6); // mavi
+  static const Color levelB1 = Color(0xFF8B5CF6); // mor
+  static const Color levelB2 = Color(0xFFF59E0B); // turuncu
+  static const Color levelC1 = Color(0xFFEC4899); // pembe
+  static const Color levelC2 = Color(0xFFEF4444); // kırmızı
+
+  /// Seviyeye göre ana renk.
+  static Color forLevel(String level) {
+    switch (level) {
+      case 'A1':
+        return levelA1;
+      case 'A2':
+        return levelA2;
+      case 'B1':
+        return levelB1;
+      case 'B2':
+        return levelB2;
+      case 'C1':
+        return levelC1;
+      case 'C2':
+        return levelC2;
+      default:
+        return primary;
+    }
+  }
+
+  /// Bir rengin biraz açık/koyu tonuyla 2 renkli gradyan (glow için).
+  static List<Color> gradientFor(Color c) {
+    final hsl = HSLColor.fromColor(c);
+    final lighter =
+        hsl.withLightness((hsl.lightness + 0.12).clamp(0.0, 1.0)).toColor();
+    final darker =
+        hsl.withLightness((hsl.lightness - 0.10).clamp(0.0, 1.0)).toColor();
+    return [lighter, darker];
+  }
 }

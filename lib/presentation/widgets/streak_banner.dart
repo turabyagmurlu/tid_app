@@ -1,54 +1,24 @@
 import 'package:flutter/material.dart';
 
-import '../../core/constants/app_colors.dart';
-import '../../core/constants/app_dimensions.dart';
 import '../../core/constants/app_strings.dart';
+import 'gradient_hero_card.dart';
 
-/// Günlük seri (streak) ve günlük hedef hatırlatması — Bölüm 4 (Gamification).
+/// Günlük seri (streak) — sıcak, parıltılı gradyan hero kart.
 class StreakBanner extends StatelessWidget {
   final int streak;
   const StreakBanner({super.key, required this.streak});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(AppDimensions.md),
-      decoration: BoxDecoration(
-        gradient: const LinearGradient(
-          colors: [AppColors.primary, AppColors.primaryLight],
-          begin: Alignment.centerLeft,
-          end: Alignment.centerRight,
-        ),
-        borderRadius: BorderRadius.circular(AppDimensions.radiusLg),
-      ),
-      child: Row(
-        children: [
-          const Icon(Icons.local_fire_department,
-              color: AppColors.accent, size: 34),
-          const SizedBox(width: AppDimensions.md),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  '$streak günlük seri',
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontSize: 20,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
-                const SizedBox(height: 2),
-                const Text(
-                  AppStrings.dailyGoal,
-                  style: TextStyle(color: Colors.white70, fontSize: 13),
-                ),
-              ],
-            ),
-          ),
-        ],
-      ),
+    return GradientHeroCard(
+      icon: Icons.local_fire_department,
+      title: '$streak günlük seri',
+      subtitle: AppStrings.dailyGoal,
+      colors: const [Color(0xFFFB7185), Color(0xFFF59E0B)],
+      trailing: streak > 0
+          ? Text('🔥' * (streak.clamp(1, 5)),
+              style: const TextStyle(fontSize: 18))
+          : null,
     );
   }
 }
