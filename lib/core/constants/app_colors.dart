@@ -6,20 +6,22 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
-  // Ana renkler (Bölüm 6 kod taslağındaki teal esas alındı, koyulaştırıldı)
-  static const Color primary = Color(0xFF00695C); // Koyu teal
+  // Ana renkler — canlı teal marka + derinlik için koyu ton
+  static const Color primary = Color(0xFF00897B); // Canlı teal
+  static const Color primaryDark = Color(0xFF00695C); // Gradyan/derinlik
   static const Color primaryLight = Color(0xFF4DB6AC);
-  static const Color accent = Color(0xFFFFA000); // Amber — vurgu / streak
+  static const Color accent = Color(0xFFFFB300); // Amber — vurgu / streak
 
-  // Nötr — Açık tema
-  static const Color lightBackground = Color(0xFFFFFFFF);
-  static const Color lightSurface = Color(0xFFF3F5F5);
-  static const Color lightOnSurface = Color(0xFF121212);
+  // Nötr — Açık tema (hafif teal tonlu yüzeyler)
+  static const Color lightBackground = Color(0xFFF6FAF9);
+  static const Color lightSurface = Color(0xFFFFFFFF);
+  static const Color lightOnSurface = Color(0xFF10201D);
 
-  // Nötr — Koyu tema
-  static const Color darkBackground = Color(0xFF0E1413);
-  static const Color darkSurface = Color(0xFF1B2422);
-  static const Color darkOnSurface = Color(0xFFF5F5F5);
+  // Nötr — Koyu tema (kart ayrımı için kademeli yüzeyler)
+  static const Color darkBackground = Color(0xFF0C1211);
+  static const Color darkSurface = Color(0xFF15201E);
+  static const Color darkSurfaceHigh = Color(0xFF1E2B28);
+  static const Color darkOnSurface = Color(0xFFF3F7F6);
 
   // Durum renkleri (geri bildirim)
   static const Color success = Color(0xFF2E7D32);
