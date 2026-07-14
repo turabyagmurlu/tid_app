@@ -9,10 +9,16 @@ import '../../core/constants/app_dimensions.dart';
 ///  - Aile Bakanlığı: T.C. Aile ve Sosyal Hizmetler Bakanlığı Güncel TİD Sözlüğü.
 class DictionaryLinks extends StatelessWidget {
   final String word;
-  const DictionaryLinks({super.key, required this.word});
 
-  String get _spreadTheSignUrl =>
-      'https://www.spreadthesign.com/tr.tr/search/?q=${Uri.encodeQueryComponent(word)}';
+  /// Bu işaretin videosuna doğrudan giden bağlantı (ör. parmak alfabesi
+  /// harfinin SpreadTheSign sayfası). Boşsa kelime araması kullanılır.
+  final String directUrl;
+
+  const DictionaryLinks({super.key, required this.word, this.directUrl = ''});
+
+  String get _spreadTheSignUrl => directUrl.isNotEmpty
+      ? directUrl
+      : 'https://www.spreadthesign.com/tr.tr/search/?q=${Uri.encodeQueryComponent(word)}';
 
   String get _aileSozlukUrl => 'https://tidsozluk.aile.gov.tr/';
 

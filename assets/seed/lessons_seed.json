@@ -1041,6 +1041,449 @@
    ]
   },
   {
+   "lesson_id": "parmak_harfler",
+   "title": "Harfler (A – Z)",
+   "level": "A1",
+   "module": "Parmak Alfabesi",
+   "words": [
+    {
+     "word_id": "alf_2",
+     "turkish_word": "A harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'A' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'A' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/2/"
+    },
+    {
+     "word_id": "alf_3",
+     "turkish_word": "B harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'B' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'B' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/3/"
+    },
+    {
+     "word_id": "alf_4",
+     "turkish_word": "C harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'C' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'C' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/4/"
+    },
+    {
+     "word_id": "alf_5",
+     "turkish_word": "Ç harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'Ç' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'Ç' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/5/"
+    },
+    {
+     "word_id": "alf_6",
+     "turkish_word": "D harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'D' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'D' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/6/"
+    },
+    {
+     "word_id": "alf_7",
+     "turkish_word": "E harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'E' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'E' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/7/"
+    },
+    {
+     "word_id": "alf_8",
+     "turkish_word": "F harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'F' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'F' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/8/"
+    },
+    {
+     "word_id": "alf_9",
+     "turkish_word": "G harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'G' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'G' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/9/"
+    },
+    {
+     "word_id": "alf_10",
+     "turkish_word": "Ğ harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'Ğ' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'Ğ' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/10/"
+    },
+    {
+     "word_id": "alf_11",
+     "turkish_word": "H harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'H' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'H' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/11/"
+    },
+    {
+     "word_id": "alf_12",
+     "turkish_word": "I harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'I' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'I' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/12/"
+    },
+    {
+     "word_id": "alf_13",
+     "turkish_word": "İ harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'İ' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'İ' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/13/"
+    },
+    {
+     "word_id": "alf_14",
+     "turkish_word": "J harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'J' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'J' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/14/"
+    },
+    {
+     "word_id": "alf_15",
+     "turkish_word": "K harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'K' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'K' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/15/"
+    },
+    {
+     "word_id": "alf_16",
+     "turkish_word": "L harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'L' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'L' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/16/"
+    },
+    {
+     "word_id": "alf_17",
+     "turkish_word": "M harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'M' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'M' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/17/"
+    },
+    {
+     "word_id": "alf_18",
+     "turkish_word": "N harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'N' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'N' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/18/"
+    },
+    {
+     "word_id": "alf_19",
+     "turkish_word": "O harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'O' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'O' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/19/"
+    },
+    {
+     "word_id": "alf_20",
+     "turkish_word": "Ö harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'Ö' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'Ö' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/20/"
+    },
+    {
+     "word_id": "alf_21",
+     "turkish_word": "P harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'P' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'P' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/21/"
+    },
+    {
+     "word_id": "alf_22",
+     "turkish_word": "R harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'R' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'R' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/22/"
+    },
+    {
+     "word_id": "alf_23",
+     "turkish_word": "S harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'S' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'S' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/23/"
+    },
+    {
+     "word_id": "alf_24",
+     "turkish_word": "Ş harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'Ş' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'Ş' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/24/"
+    },
+    {
+     "word_id": "alf_25",
+     "turkish_word": "T harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'T' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'T' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/25/"
+    },
+    {
+     "word_id": "alf_26",
+     "turkish_word": "U harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'U' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'U' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/26/"
+    },
+    {
+     "word_id": "alf_27",
+     "turkish_word": "Ü harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'Ü' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'Ü' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/27/"
+    },
+    {
+     "word_id": "alf_28",
+     "turkish_word": "V harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'V' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'V' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/28/"
+    },
+    {
+     "word_id": "alf_29",
+     "turkish_word": "Y harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'Y' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'Y' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/29/"
+    },
+    {
+     "word_id": "alf_30",
+     "turkish_word": "Z harfi",
+     "tid_grammar_note": "Parmak alfabesinde 'Z' harfi. Aşağıdaki 'İşaret videosu (SpreadTheSign)' butonuna dokun, harfin el şeklini izle ve elini aynı şekle getirerek tekrar et.",
+     "regional_variants": [
+      {
+       "region": "",
+       "video_full_body": "",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "'Z' — videoyu izle, el şeklini kopyala, birkaç kez tekrar et.",
+     "facial_expression_required": false,
+     "dictionary_url": "https://www.spreadthesign.com/tr.tr/alphabet/3/30/"
+    }
+   ]
+  },
+  {
    "lesson_id": "gram_0",
    "title": "1. Zamirler (Kişiler)",
    "level": "A1",

@@ -12,6 +12,11 @@ class WordModel extends Equatable {
   final String mnemonicTip;
   final bool facialExpressionRequired;
 
+  /// Gömülü video yoksa, bu işaretin videosuna doğrudan giden bağlantı
+  /// (ör. parmak alfabesi harflerinin SpreadTheSign sayfası). Boşsa
+  /// genel sözlük araması kullanılır.
+  final String dictionaryUrl;
+
   const WordModel({
     required this.wordId,
     required this.turkishWord,
@@ -19,6 +24,7 @@ class WordModel extends Equatable {
     required this.regionalVariants,
     required this.mnemonicTip,
     required this.facialExpressionRequired,
+    this.dictionaryUrl = '',
   });
 
   factory WordModel.fromMap(Map<String, dynamic> map) {
@@ -34,6 +40,7 @@ class WordModel extends Equatable {
       mnemonicTip: (map['mnemonic_tip'] ?? '') as String,
       facialExpressionRequired:
           (map['facial_expression_required'] ?? false) as bool,
+      dictionaryUrl: (map['dictionary_url'] ?? '') as String,
     );
   }
 
@@ -44,6 +51,7 @@ class WordModel extends Equatable {
         'regional_variants': regionalVariants.map((e) => e.toMap()).toList(),
         'mnemonic_tip': mnemonicTip,
         'facial_expression_required': facialExpressionRequired,
+        'dictionary_url': dictionaryUrl,
       };
 
   @override
@@ -54,5 +62,6 @@ class WordModel extends Equatable {
         regionalVariants,
         mnemonicTip,
         facialExpressionRequired,
+        dictionaryUrl,
       ];
 }

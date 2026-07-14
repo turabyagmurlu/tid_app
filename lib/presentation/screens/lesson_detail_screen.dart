@@ -140,7 +140,10 @@ class _WordSectionState extends State<_WordSection> {
             lipCloseupUrl: variant.videoLipCloseups,
           ),
         ] else
-          DictionaryLinks(word: word.turkishWord),
+          DictionaryLinks(
+            word: word.turkishWord,
+            directUrl: word.dictionaryUrl,
+          ),
 
         const SizedBox(height: AppDimensions.md),
 
