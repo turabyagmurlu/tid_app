@@ -5,75 +5,147 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>El Takibi</title>
 <style>
-  html,body{margin:0;padding:0;height:100%;background:#0b0f0e;overflow:hidden;font-family:system-ui,Arial,sans-serif;}
+  html,body{margin:0;padding:0;height:100%;background:#0b0f0e;overflow:hidden;
+    font-family:system-ui,Arial,sans-serif;color:#eaf6f2;}
+  #bar{position:fixed;top:0;left:0;right:0;display:flex;gap:8px;justify-content:center;
+    padding:8px;z-index:5;flex-wrap:wrap;background:linear-gradient(#0b0f0eee,#0b0f0e00);}
+  .btn{background:#12816a;color:#fff;border:none;border-radius:20px;padding:8px 16px;
+    font-size:14px;cursor:pointer;}
+  .btn.alt{background:#1f2a28;}
   #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;}
   video{display:none;}
-  canvas{max-width:100%;max-height:100%;transform:scaleX(-1);} /* ayna */
-  #status{position:fixed;top:10px;left:0;right:0;text-align:center;color:#fff;
-    font-size:15px;padding:8px 12px;pointer-events:none;text-shadow:0 1px 3px #000;}
-  #hint{position:fixed;bottom:12px;left:0;right:0;text-align:center;color:#cfe;
-    font-size:13px;padding:6px 12px;pointer-events:none;text-shadow:0 1px 3px #000;}
+  canvas{max-width:100%;max-height:100%;transform:scaleX(-1);}
+  #panel{position:fixed;bottom:0;left:0;right:0;padding:12px 14px 18px;
+    background:linear-gradient(#0b0f0e00,#0b0f0eee);text-align:center;z-index:5;}
+  #big{font-size:26px;font-weight:700;margin:2px 0;}
+  #sub{font-size:15px;color:#bfe;min-height:20px;}
+  #score{position:fixed;top:52px;right:12px;font-size:14px;color:#ffd54a;z-index:5;}
   #err{position:fixed;inset:0;display:none;align-items:center;justify-content:center;
-    color:#fff;text-align:center;padding:24px;font-size:16px;line-height:1.5;}
+    text-align:center;padding:24px;font-size:16px;line-height:1.5;z-index:9;background:#0b0f0e;}
+  .target{font-size:64px;font-weight:800;color:#ffd54a;}
 </style>
 </head>
 <body>
+<div id="bar">
+  <button class="btn" id="mFree">Serbest</button>
+  <button class="btn alt" id="mNum">Sayı Pratiği</button>
+</div>
+<div id="score"></div>
 <div id="wrap"><canvas id="canvas" width="640" height="480"></canvas></div>
-<video id="video" playsinline></video>
-<div id="status">Kamera başlatılıyor…</div>
-<div id="hint">Elini kameraya göster — parmak noktaların çizilecek. Aynadaki gibi hareket et.</div>
+<div id="panel">
+  <div id="big">Kamera başlatılıyor…</div>
+  <div id="sub"></div>
+</div>
 <div id="err"></div>
+<video id="video" playsinline></video>
 
 <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
 <script>
-const video = document.getElementById('video');
-const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
-const statusEl = document.getElementById('status');
-const errEl = document.getElementById('err');
+const video=document.getElementById('video');
+const canvas=document.getElementById('canvas');
+const ctx=canvas.getContext('2d');
+const big=document.getElementById('big');
+const sub=document.getElementById('sub');
+const scoreEl=document.getElementById('score');
+const errEl=document.getElementById('err');
 
-function showError(msg){
-  errEl.style.display='flex';
-  errEl.innerHTML = msg;
-  statusEl.style.display='none';
+let mode='free';           // 'free' | 'num'
+let target=null;           // hedef sayı
+let score=0;
+let holdStart=0;           // doğru duruşu tutma süresi
+const HOLD_MS=800;
+
+document.getElementById('mFree').onclick=()=>setMode('free');
+document.getElementById('mNum').onclick=()=>setMode('num');
+function setMode(m){
+  mode=m;
+  document.getElementById('mFree').className='btn'+(m==='free'?'':' alt');
+  document.getElementById('mNum').className='btn'+(m==='num'?'':' alt');
+  score=0; scoreEl.textContent='';
+  if(m==='num'){ newTarget(); } else { target=null; big.textContent='Elini göster'; sub.textContent=''; }
+}
+function newTarget(){ target=Math.floor(Math.random()*6); holdStart=0;
+  big.innerHTML='<span class="target">'+target+'</span>';
+  sub.textContent=target+' parmak göster'; scoreEl.textContent='Puan: '+score; }
+
+function showError(m){ errEl.style.display='flex'; errEl.innerHTML=m; }
+
+// Parmak açık mı? (yaklaşık, dik el için)
+function fingersUp(lm,label){
+  const tip=[4,8,12,16,20], pip=[3,6,10,14,18], mcp17=17;
+  const f={};
+  f.index = lm[8].y  < lm[6].y-0.02 ? 1:0;
+  f.middle= lm[12].y < lm[10].y-0.02?1:0;
+  f.ring  = lm[16].y < lm[14].y-0.02?1:0;
+  f.pinky = lm[20].y < lm[18].y-0.02?1:0;
+  // Başparmak: uç, işaret parmağı kökünden yatayda daha uzaktaysa açık
+  f.thumb = Math.abs(lm[4].x-lm[mcp17].x) > Math.abs(lm[3].x-lm[mcp17].x)+0.02 ?1:0;
+  const count=f.thumb+f.index+f.middle+f.ring+f.pinky;
+  return {f,count};
+}
+function shapeLabel(f,count){
+  if(count===0) return 'Yumruk ✊';
+  if(count===5) return 'Açık el ✋';
+  if(f.index&&f.middle&&!f.ring&&!f.pinky&&!f.thumb) return 'İki parmak (V) ✌️';
+  if(f.index&&!f.middle&&!f.ring&&!f.pinky) return 'İşaret parmağı 👆';
+  if(f.thumb&&!f.index&&!f.middle&&!f.ring&&!f.pinky) return 'Başparmak 👍';
+  return count+' parmak açık';
 }
 
-function onResults(results){
+function onResults(res){
   ctx.save();
   ctx.clearRect(0,0,canvas.width,canvas.height);
-  if(results.image){ ctx.drawImage(results.image,0,0,canvas.width,canvas.height); }
-  let count = 0;
-  if(results.multiHandLandmarks){
-    count = results.multiHandLandmarks.length;
-    for(const lm of results.multiHandLandmarks){
-      if(window.drawConnectors && window.HAND_CONNECTIONS){
-        drawConnectors(ctx, lm, HAND_CONNECTIONS, {color:'#12d1a3', lineWidth:4});
-      }
-      if(window.drawLandmarks){
-        drawLandmarks(ctx, lm, {color:'#ffd54a', lineWidth:1, radius:4});
-      }
+  if(res.image) ctx.drawImage(res.image,0,0,canvas.width,canvas.height);
+  let info=null;
+  if(res.multiHandLandmarks && res.multiHandLandmarks.length){
+    for(let i=0;i<res.multiHandLandmarks.length;i++){
+      const lm=res.multiHandLandmarks[i];
+      const label=(res.multiHandedness&&res.multiHandedness[i])?res.multiHandedness[i].label:'Right';
+      if(window.drawConnectors&&window.HAND_CONNECTIONS)
+        drawConnectors(ctx,lm,HAND_CONNECTIONS,{color:'#12d1a3',lineWidth:4});
+      if(window.drawLandmarks)
+        drawLandmarks(ctx,lm,{color:'#ffd54a',lineWidth:1,radius:4});
+      if(i===0) info=fingersUp(lm,label);
     }
   }
   ctx.restore();
-  statusEl.textContent = count>0 ? (count+' el algılandı ✋') : 'Elini kameraya göster';
+
+  if(!info){
+    if(mode!=='num'){ big.textContent='Elini göster'; sub.textContent=''; }
+    else { sub.textContent='Elini göster'; }
+    holdStart=0;
+    return;
+  }
+
+  if(mode==='free'){
+    big.textContent=shapeLabel(info.f,info.count);
+    sub.textContent='Açık parmak: '+info.count;
+  } else {
+    // Sayı pratiği: hedefi tut
+    if(info.count===target){
+      if(!holdStart) holdStart=performance.now();
+      const held=performance.now()-holdStart;
+      sub.textContent='Doğru! Sabit tut… ('+Math.max(0,Math.ceil((HOLD_MS-held)/100)/10)+'s)';
+      if(held>=HOLD_MS){ score++; scoreEl.textContent='Puan: '+score; flashOk(); newTarget(); }
+    } else {
+      holdStart=0;
+      sub.textContent='Gösterdiğin: '+info.count+'  •  Hedef: '+target;
+    }
+  }
 }
+let okFlash=0;
+function flashOk(){ okFlash=performance.now(); }
 
 try{
-  const hands = new Hands({locateFile:(f)=>'https://cdn.jsdelivr.net/npm/@mediapipe/hands/'+f});
-  hands.setOptions({maxNumHands:2, modelComplexity:1, minDetectionConfidence:0.6, minTrackingConfidence:0.6});
+  const hands=new Hands({locateFile:(f)=>'https://cdn.jsdelivr.net/npm/@mediapipe/hands/'+f});
+  hands.setOptions({maxNumHands:1,modelComplexity:1,minDetectionConfidence:0.6,minTrackingConfidence:0.6});
   hands.onResults(onResults);
-
-  const cam = new Camera(video, {
-    onFrame: async ()=>{ await hands.send({image:video}); },
-    width:640, height:480
-  });
-  cam.start().then(()=>{ statusEl.textContent='Elini kameraya göster'; })
-    .catch(e=>{ showError('Kamera açılamadı.<br>Tarayıcı kamera iznini vermelisin.<br><small>'+e+'</small>'); });
-}catch(e){
-  showError('El takibi yüklenemedi.<br><small>'+e+'</small>');
-}
+  const cam=new Camera(video,{onFrame:async()=>{await hands.send({image:video});},width:640,height:480});
+  cam.start().then(()=>{ big.textContent='Elini göster'; })
+    .catch(e=>showError('Kamera açılamadı.<br>Tarayıcı kamera iznini vermelisin.<br><small>'+e+'</small>'));
+}catch(e){ showError('El takibi yüklenemedi.<br><small>'+e+'</small>'); }
 </script>
 </body>
 </html>

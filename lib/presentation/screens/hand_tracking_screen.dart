@@ -38,9 +38,12 @@ class HandTrackingScreen extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.all(AppDimensions.md),
             child: Text(
-              'Kameranı aç ve elini göster. Parmak eklemlerin canlı olarak '
-              'işaretlenir; aynada işareti yaparken el şeklini kontrol edebilirsin. '
-              'Bu özellik deneyseldir ve kamera izni gerektirir.',
+              'Kameranı aç ve elini göster. Uygulama parmaklarını sayar, el '
+              'şeklini tanır (yumruk, açık el, işaret…) ve geri bildirim verir.\n'
+              '• Serbest: el şeklini canlı gör.\n'
+              '• Sayı Pratiği: ekrandaki sayıyı parmaklarınla göster, doğruysa '
+              'puan kazan.\n'
+              'Kamera izni gerekir; özellik deneyseldir.',
               style: TextStyle(fontSize: 14),
             ),
           ),
