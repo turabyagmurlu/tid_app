@@ -2320,6 +2320,446 @@
    ]
   },
   {
+   "lesson_id": "gram2_0",
+   "title": "9. Soru Kelimeleriyle Cümle",
+   "level": "A2",
+   "module": "Dilbilgisi Â· CÃ¼mle Kurma",
+   "words": [
+    {
+     "word_id": "g2_0_0",
+     "turkish_word": "Bu",
+     "tid_grammar_note": "Cümle: BU + NE = 'Bu ne?'. TİD'de soru kelimesi genelde sona gelir. Sorarken kaşlarını çat, başını hafif öne eğ.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/04-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "BU + NE?",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g2_0_1",
+     "turkish_word": "Ne",
+     "tid_grammar_note": "'Bu ne?' — bir şeyi sorarken. Mimik olmadan soru anlaşılmaz: kaşlar çatık.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/10-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Soru mimiği",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g2_0_2",
+     "turkish_word": "O",
+     "tid_grammar_note": "Cümle: O + KİM = 'O kim?'. Kişiyi sorarken kullanılır.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/02-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "O + KİM?",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g2_0_3",
+     "turkish_word": "Kim",
+     "tid_grammar_note": "'O kim?' — kişi sorusu. Yüz ifadenle soruyu göster.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/247-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Kişi sorusu",
+     "facial_expression_required": true
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram2_1",
+   "title": "10. Sayı + İsim",
+   "level": "A2",
+   "module": "Dilbilgisi Â· CÃ¼mle Kurma",
+   "words": [
+    {
+     "word_id": "g2_1_0",
+     "turkish_word": "İki",
+     "tid_grammar_note": "Cümle: İKİ + KİTAP = 'İki kitap'. Kural: TİD'de sayı isimden ÖNCE gelir.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/122-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Sayı önce",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_1_1",
+     "turkish_word": "Kitap",
+     "tid_grammar_note": "Sayının ardından isim gelir: KİTAP.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/61-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "İsim sonra",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_1_2",
+     "turkish_word": "Beş",
+     "tid_grammar_note": "BEŞ + GÜN = 'Beş gün'. Yine sayı başta.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/537-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Sayı önce",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_1_3",
+     "turkish_word": "Gün",
+     "tid_grammar_note": "Sayıdan sonra isim: GÜN.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/109-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "İsim sonra",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram2_2",
+   "title": "11. Zaman Zarfıyla Cümle",
+   "level": "B1",
+   "module": "Dilbilgisi Â· CÃ¼mle Kurma",
+   "words": [
+    {
+     "word_id": "g2_2_0",
+     "turkish_word": "Yarın",
+     "tid_grammar_note": "Cümle: YARIN + BEN + GELMEK = 'Yarın geleceğim'. Kural: ZAMAN kelimesi en BAŞTA gelir.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/331-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Zaman başta",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_2_1",
+     "turkish_word": "Ben",
+     "tid_grammar_note": "Zamandan sonra özne: BEN.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/01-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Özne",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_2_2",
+     "turkish_word": "Gelmek",
+     "tid_grammar_note": "Fiil sonda: GELMEK. TİD'de fiil çekilmez; zamanı 'yarın' verir.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/20-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Fiil sonda",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_2_3",
+     "turkish_word": "Bugün",
+     "tid_grammar_note": "Başka örnek: BUGÜN + OKUL + GİTMEK = 'Bugün okula gidiyorum'.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/605-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Zaman başta",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram2_3",
+   "title": "12. Betimleme: İsim + Sıfat",
+   "level": "B1",
+   "module": "Dilbilgisi Â· CÃ¼mle Kurma",
+   "words": [
+    {
+     "word_id": "g2_3_0",
+     "turkish_word": "Çay",
+     "tid_grammar_note": "Cümle: ÇAY + SICAK = 'Çay sıcak'. Kural: sıfat isimden SONRA gelir.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/727-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "İsim önce",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_3_1",
+     "turkish_word": "Sıcak",
+     "tid_grammar_note": "Sıfat: SICAK, isimden sonra.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/507-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Sıfat sonra",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_3_2",
+     "turkish_word": "Su",
+     "tid_grammar_note": "SU + SOĞUK = 'Su soğuk'.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/115-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "İsim önce",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_3_3",
+     "turkish_word": "Soğuk",
+     "tid_grammar_note": "Sıfat: SOĞUK.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/685-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Sıfat sonra",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_3_4",
+     "turkish_word": "Araba",
+     "tid_grammar_note": "ARABA + YENİ = 'Araba yeni'.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/43-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "İsim önce",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_3_5",
+     "turkish_word": "Yeni",
+     "tid_grammar_note": "Sıfat: YENİ, isimden sonra.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/126-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Sıfat sonra",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram2_4",
+   "title": "13. Duygularını Anlat",
+   "level": "A2",
+   "module": "Dilbilgisi Â· CÃ¼mle Kurma",
+   "words": [
+    {
+     "word_id": "g2_4_0",
+     "turkish_word": "Ben",
+     "tid_grammar_note": "Cümle: BEN + MUTLU = 'Mutluyum'. Duyguyu anlatırken YÜZ İFADEN de duyguyu göstermeli!",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/01-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Özne",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g2_4_1",
+     "turkish_word": "Mutlu",
+     "tid_grammar_note": "MUTLU — söylerken gülümse.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/237-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Yüz ifadesi",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g2_4_2",
+     "turkish_word": "Yorgun",
+     "tid_grammar_note": "BEN + YORGUN = 'Yorgunum'. Yorgun bir ifade tak.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1904-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Yüz ifadesi",
+     "facial_expression_required": true
+    },
+    {
+     "word_id": "g2_4_3",
+     "turkish_word": "Korku",
+     "tid_grammar_note": "BEN + KORKU = 'Korkuyorum'. Korku ifadesiyle yap.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1347-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Yüz ifadesi",
+     "facial_expression_required": true
+    }
+   ]
+  },
+  {
+   "lesson_id": "gram2_5",
+   "title": "14. Özne + Fiil Cümlesi",
+   "level": "A2",
+   "module": "Dilbilgisi Â· CÃ¼mle Kurma",
+   "words": [
+    {
+     "word_id": "g2_5_0",
+     "turkish_word": "Ben",
+     "tid_grammar_note": "Cümle: BEN + OKUMAK = 'Okuyorum'. En basit cümle: özne + fiil.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/01-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Özne + fiil",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_5_1",
+     "turkish_word": "Okumak",
+     "tid_grammar_note": "Fiil: OKUMAK, sonda.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/76-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Fiil",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_5_2",
+     "turkish_word": "Sen",
+     "tid_grammar_note": "SEN + YAZMAK = 'Yazıyorsun'.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/03-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Özne + fiil",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_5_3",
+     "turkish_word": "Yazmak",
+     "tid_grammar_note": "Fiil: YAZMAK.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/62-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Fiil",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_5_4",
+     "turkish_word": "O",
+     "tid_grammar_note": "O + KOŞMAK = 'Koşuyor'.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/02-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Özne + fiil",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "g2_5_5",
+     "turkish_word": "Koşmak",
+     "tid_grammar_note": "Fiil: KOŞMAK.",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/380-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "Fiil",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
    "lesson_id": "auto_l9",
    "title": "Hava ve Doğa",
    "level": "A2",
