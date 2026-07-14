@@ -8,6 +8,7 @@ import '../../data/models/lesson_model.dart';
 class LessonCard extends StatelessWidget {
   final LessonModel lesson;
   final bool completed;
+  final double progress; // 0..1 (öğrenilen kelime oranı)
   final VoidCallback onTap;
 
   const LessonCard({
@@ -15,6 +16,7 @@ class LessonCard extends StatelessWidget {
     required this.lesson,
     required this.onTap,
     this.completed = false,
+    this.progress = 0,
   });
 
   @override
@@ -60,6 +62,22 @@ class LessonCard extends StatelessWidget {
                       '${lesson.words.length} işaret',
                       style: Theme.of(context).textTheme.bodyMedium,
                     ),
+                    if (progress > 0) ...[
+                      const SizedBox(height: 6),
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(4),
+                        child: LinearProgressIndicator(
+                          value: progress,
+                          minHeight: 5,
+                          backgroundColor: AppColors.primary.withOpacity(0.15),
+                          valueColor: const AlwaysStoppedAnimation(
+                              AppColors.success),
+                        ),
+                      ),
+                      const SizedBox(height: 2),
+                      Text('%${(progress * 100).round()} öğrenildi',
+                          style: Theme.of(context).textTheme.bodySmall),
+                    ],
                   ],
                 ),
               ),

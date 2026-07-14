@@ -30,6 +30,9 @@ dependencies:
   # Harici sözlük linklerini açmak için (SpreadTheSign / resmî TİD sözlüğü)
   url_launcher: ^6.2.6
 
+  # Kalıcı yerel kayıt (ilerleme, aralıklı tekrar, ayarlar)
+  shared_preferences: ^2.2.3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

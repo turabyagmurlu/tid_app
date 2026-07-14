@@ -7,9 +7,11 @@ import '../../core/constants/app_strings.dart';
 import '../../data/models/lesson_model.dart';
 import '../blocs/lesson/lesson_cubit.dart';
 import '../blocs/progress/progress_cubit.dart';
+import '../blocs/srs/srs_cubit.dart';
 import '../widgets/lesson_card.dart';
 import '../widgets/streak_banner.dart';
 import 'lesson_detail_screen.dart';
+import 'review_today_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -64,6 +66,8 @@ class _LessonList extends StatelessWidget {
           builder: (context, ps) =>
               StreakBanner(streak: ps.progress.currentStreak),
         ),
+        const SizedBox(height: AppDimensions.md),
+        _ReviewTodayEntry(lessons: lessons),
         const SizedBox(height: AppDimensions.lg),
         Text(AppStrings.modulesTitle,
             style: Theme.of(context).textTheme.headlineSmall),
@@ -91,6 +95,7 @@ class _LessonList extends StatelessWidget {
                 lesson: lesson,
                 completed:
                     ps.progress.completedLessonIds.contains(lesson.lessonId),
+                progress: context.read<ProgressCubit>().lessonProgress(lesson),
                 onTap: () {
                   context.read<ProgressCubit>().registerStudyToday();
                   Navigator.of(context).push(MaterialPageRoute(
@@ -102,6 +107,50 @@ class _LessonList extends StatelessWidget {
         ],
         const SizedBox(height: AppDimensions.xl),
       ],
+    );
+  }
+}
+
+/// "Bugün Tekrar" giriş kartı — vadesi gelen kelime sayısını gösterir.
+class _ReviewTodayEntry extends StatefulWidget {
+  final List<LessonModel> lessons;
+  const _ReviewTodayEntry({required this.lessons});
+
+  @override
+  State<_ReviewTodayEntry> createState() => _ReviewTodayEntryState();
+}
+
+class _ReviewTodayEntryState extends State<_ReviewTodayEntry> {
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final learned =
+          context.read<ProgressCubit>().state.progress.learnedWordIds;
+      context.read<SrsCubit>().loadDue(widget.lessons, learned);
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocBuilder<SrsCubit, SrsState>(
+      builder: (context, s) {
+        final due = s.dueWords.length;
+        return Card(
+          color: AppColors.accent.withOpacity(0.14),
+          child: ListTile(
+            leading: const Icon(Icons.repeat, color: AppColors.accent),
+            title: const Text('Bugün Tekrar'),
+            subtitle: Text(due > 0
+                ? '$due kelime tekrar için hazır'
+                : 'Kelimeleri "Öğrendim" işaretle, tekrar burada birikir'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => Navigator.of(context).push(MaterialPageRoute(
+              builder: (_) => const ReviewTodayScreen(),
+            )),
+          ),
+        );
+      },
     );
   }
 }

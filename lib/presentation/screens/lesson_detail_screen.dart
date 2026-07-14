@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_dimensions.dart';
@@ -6,10 +7,12 @@ import '../../core/constants/app_strings.dart';
 import '../../data/models/lesson_model.dart';
 import '../../data/models/regional_variant_model.dart';
 import '../../data/models/word_model.dart';
+import '../blocs/progress/progress_cubit.dart';
 import '../widgets/dictionary_links.dart';
 import '../widgets/dual_video_player.dart';
 import '../widgets/grammar_quiz_widget.dart';
 import 'camera_practice_screen.dart';
+import 'quiz_screen.dart';
 
 /// Ders detay ekranı: her işaret için (gömülü gerçek video varsa) çift açılı
 /// oynatıcı; yoksa güvenilir sözlükte gerçek işaret videosuna yönlendiren
@@ -24,14 +27,45 @@ class LessonDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final hasQuiz = lesson.words
+            .where((w) =>
+                w.regionalVariants.isNotEmpty &&
+                w.regionalVariants.first.videoFullBody.trim().isNotEmpty)
+            .length >=
+        2;
     return Scaffold(
-      appBar: AppBar(title: Text(lesson.title)),
+      appBar: AppBar(
+        title: Text(lesson.title),
+        actions: [
+          if (hasQuiz)
+            IconButton(
+              tooltip: 'Quiz Başlat',
+              icon: const Icon(Icons.quiz),
+              onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+                builder: (_) => QuizScreen(lesson: lesson),
+              )),
+            ),
+        ],
+      ),
       body: SafeArea(
         child: ListView(
           padding: const EdgeInsets.all(AppDimensions.md),
           children: [
             _LevelPill(level: lesson.level, module: lesson.module),
             const SizedBox(height: AppDimensions.md),
+            if (hasQuiz) ...[
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton.icon(
+                  icon: const Icon(Icons.quiz),
+                  label: const Text('Bu Dersten Quiz Çöz'),
+                  onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+                    builder: (_) => QuizScreen(lesson: lesson),
+                  )),
+                ),
+              ),
+              const SizedBox(height: AppDimensions.md),
+            ],
             for (final word in lesson.words) ...[
               _WordSection(word: word),
               const Divider(height: AppDimensions.xl),
@@ -47,6 +81,40 @@ class LessonDetailScreen extends StatelessWidget {
               ),
               const SizedBox(height: AppDimensions.xl),
             ],
+            BlocBuilder<ProgressCubit, ProgressState>(
+              builder: (context, ps) {
+                final done =
+                    ps.progress.completedLessonIds.contains(lesson.lessonId);
+                return SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton.icon(
+                    icon: Icon(done ? Icons.check_circle : Icons.done),
+                    label: Text(done ? 'Ders Tamamlandı ✓' : 'Dersi Tamamla'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: done ? AppColors.success : null,
+                      foregroundColor: done ? Colors.white : null,
+                    ),
+                    onPressed: done
+                        ? null
+                        : () {
+                            context
+                                .read<ProgressCubit>()
+                                .completeLesson(lesson.lessonId);
+                            context
+                                .read<ProgressCubit>()
+                                .registerStudyToday();
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text('Ders tamamlandı! +10 XP'),
+                                duration: Duration(seconds: 2),
+                              ),
+                            );
+                          },
+                  ),
+                );
+              },
+            ),
+            const SizedBox(height: AppDimensions.xl),
           ],
         ),
       ),
@@ -117,6 +185,32 @@ class _WordSectionState extends State<_WordSection> {
             ),
             if (word.facialExpressionRequired) const _FacialBadge(),
           ],
+        ),
+        const SizedBox(height: AppDimensions.xs),
+        Align(
+          alignment: Alignment.centerLeft,
+          child: BlocBuilder<ProgressCubit, ProgressState>(
+            builder: (context, ps) {
+              final learned =
+                  ps.progress.learnedWordIds.contains(word.wordId);
+              return FilterChip(
+                selected: learned,
+                onSelected: (_) => context
+                    .read<ProgressCubit>()
+                    .toggleWordLearned(word.wordId),
+                avatar: Icon(
+                  learned
+                      ? Icons.check_circle
+                      : Icons.radio_button_unchecked,
+                  size: 18,
+                  color: learned ? Colors.white : null,
+                ),
+                label: Text(learned ? 'Öğrendim' : 'Öğrendim mi?'),
+                selectedColor: AppColors.success,
+                labelStyle: TextStyle(color: learned ? Colors.white : null),
+              );
+            },
+          ),
         ),
         if (word.tidGrammarNote.isNotEmpty) ...[
           const SizedBox(height: AppDimensions.xs),
