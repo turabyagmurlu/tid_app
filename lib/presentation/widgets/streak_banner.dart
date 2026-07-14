@@ -16,8 +16,19 @@ class StreakBanner extends StatelessWidget {
       subtitle: AppStrings.dailyGoal,
       colors: const [Color(0xFFFB7185), Color(0xFFF59E0B)],
       trailing: streak > 0
-          ? Text('🔥' * (streak.clamp(1, 5)),
-              style: const TextStyle(fontSize: 18))
+          ? Container(
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.22),
+                borderRadius: BorderRadius.circular(30),
+              ),
+              child: Text('$streak',
+                  style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w900)),
+            )
           : null,
     );
   }
