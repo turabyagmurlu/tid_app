@@ -16,6 +16,7 @@ import 'lesson_detail_screen.dart';
 import 'review_today_screen.dart';
 import 'search_screen.dart';
 import 'settings_screen.dart';
+import 'stats_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -26,6 +27,13 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text(AppStrings.homeTitle),
         actions: [
+          IconButton(
+            tooltip: 'İlerlemem',
+            onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+              builder: (_) => const StatsScreen(),
+            )),
+            icon: const Icon(Icons.insights),
+          ),
           IconButton(
             tooltip: 'Ara',
             onPressed: () => Navigator.of(context).push(MaterialPageRoute(
