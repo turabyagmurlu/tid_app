@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>El Takibi</title>
+<style>
+  html,body{margin:0;padding:0;height:100%;background:#0b0f0e;overflow:hidden;font-family:system-ui,Arial,sans-serif;}
+  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;}
+  video{display:none;}
+  canvas{max-width:100%;max-height:100%;transform:scaleX(-1);} /* ayna */
+  #status{position:fixed;top:10px;left:0;right:0;text-align:center;color:#fff;
+    font-size:15px;padding:8px 12px;pointer-events:none;text-shadow:0 1px 3px #000;}
+  #hint{position:fixed;bottom:12px;left:0;right:0;text-align:center;color:#cfe;
+    font-size:13px;padding:6px 12px;pointer-events:none;text-shadow:0 1px 3px #000;}
+  #err{position:fixed;inset:0;display:none;align-items:center;justify-content:center;
+    color:#fff;text-align:center;padding:24px;font-size:16px;line-height:1.5;}
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="canvas" width="640" height="480"></canvas></div>
+<video id="video" playsinline></video>
+<div id="status">Kamera başlatılıyor…</div>
+<div id="hint">Elini kameraya göster — parmak noktaların çizilecek. Aynadaki gibi hareket et.</div>
+<div id="err"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+<script>
+const video = document.getElementById('video');
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+const statusEl = document.getElementById('status');
+const errEl = document.getElementById('err');
+
+function showError(msg){
+  errEl.style.display='flex';
+  errEl.innerHTML = msg;
+  statusEl.style.display='none';
+}
+
+function onResults(results){
+  ctx.save();
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  if(results.image){ ctx.drawImage(results.image,0,0,canvas.width,canvas.height); }
+  let count = 0;
+  if(results.multiHandLandmarks){
+    count = results.multiHandLandmarks.length;
+    for(const lm of results.multiHandLandmarks){
+      if(window.drawConnectors && window.HAND_CONNECTIONS){
+        drawConnectors(ctx, lm, HAND_CONNECTIONS, {color:'#12d1a3', lineWidth:4});
+      }
+      if(window.drawLandmarks){
+        drawLandmarks(ctx, lm, {color:'#ffd54a', lineWidth:1, radius:4});
+      }
+    }
+  }
+  ctx.restore();
+  statusEl.textContent = count>0 ? (count+' el algılandı ✋') : 'Elini kameraya göster';
+}
+
+try{
+  const hands = new Hands({locateFile:(f)=>'https://cdn.jsdelivr.net/npm/@mediapipe/hands/'+f});
+  hands.setOptions({maxNumHands:2, modelComplexity:1, minDetectionConfidence:0.6, minTrackingConfidence:0.6});
+  hands.onResults(onResults);
+
+  const cam = new Camera(video, {
+    onFrame: async ()=>{ await hands.send({image:video}); },
+    width:640, height:480
+  });
+  cam.start().then(()=>{ statusEl.textContent='Elini kameraya göster'; })
+    .catch(e=>{ showError('Kamera açılamadı.<br>Tarayıcı kamera iznini vermelisin.<br><small>'+e+'</small>'); });
+}catch(e){
+  showError('El takibi yüklenemedi.<br><small>'+e+'</small>');
+}
+</script>
+</body>
+</html>

@@ -11,6 +11,7 @@ import '../blocs/srs/srs_cubit.dart';
 import '../widgets/lesson_card.dart';
 import '../widgets/streak_banner.dart';
 import 'favorites_screen.dart';
+import 'hand_tracking_screen.dart';
 import 'lesson_detail_screen.dart';
 import 'review_today_screen.dart';
 import 'search_screen.dart';
@@ -87,6 +88,20 @@ class _LessonList extends StatelessWidget {
         ),
         const SizedBox(height: AppDimensions.md),
         _ReviewTodayEntry(lessons: lessons),
+        const SizedBox(height: AppDimensions.sm),
+        Card(
+          color: AppColors.primary.withOpacity(0.12),
+          child: ListTile(
+            leading: const Icon(Icons.back_hand, color: AppColors.primary),
+            title: const Text('El Takibi (Deneysel)'),
+            subtitle: const Text(
+                'Kamerada parmak noktalarını canlı gör, işaretini kontrol et'),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => Navigator.of(context).push(MaterialPageRoute(
+              builder: (_) => const HandTrackingScreen(),
+            )),
+          ),
+        ),
         const SizedBox(height: AppDimensions.lg),
         Text(AppStrings.modulesTitle,
             style: Theme.of(context).textTheme.headlineSmall),
