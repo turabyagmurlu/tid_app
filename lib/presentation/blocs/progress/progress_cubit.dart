@@ -48,6 +48,17 @@ class ProgressCubit extends Cubit<ProgressState> {
   bool isWordLearned(String wordId) =>
       state.progress.learnedWordIds.contains(wordId);
 
+  /// Favori (yıldız) durumunu açar/kapatır.
+  void toggleFavorite(String wordId) {
+    final p = state.progress;
+    final set = {...p.favoriteWordIds};
+    set.contains(wordId) ? set.remove(wordId) : set.add(wordId);
+    _persist(p.copyWith(favoriteWordIds: set));
+  }
+
+  bool isFavorite(String wordId) =>
+      state.progress.favoriteWordIds.contains(wordId);
+
   void addXp(int amount) {
     final p = state.progress;
     _persist(p.copyWith(xp: p.xp + amount));

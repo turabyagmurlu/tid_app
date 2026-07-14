@@ -10,8 +10,11 @@ import '../blocs/progress/progress_cubit.dart';
 import '../blocs/srs/srs_cubit.dart';
 import '../widgets/lesson_card.dart';
 import '../widgets/streak_banner.dart';
+import 'favorites_screen.dart';
 import 'lesson_detail_screen.dart';
 import 'review_today_screen.dart';
+import 'search_screen.dart';
+import 'settings_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -23,9 +26,25 @@ class HomeScreen extends StatelessWidget {
         title: const Text(AppStrings.homeTitle),
         actions: [
           IconButton(
-            tooltip: 'Yenile',
-            onPressed: () => context.read<LessonCubit>().loadLessons(),
-            icon: const Icon(Icons.refresh),
+            tooltip: 'Ara',
+            onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+              builder: (_) => const SearchScreen(),
+            )),
+            icon: const Icon(Icons.search),
+          ),
+          IconButton(
+            tooltip: 'Favorilerim',
+            onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+              builder: (_) => const FavoritesScreen(),
+            )),
+            icon: const Icon(Icons.star),
+          ),
+          IconButton(
+            tooltip: 'Ayarlar',
+            onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+              builder: (_) => const SettingsScreen(),
+            )),
+            icon: const Icon(Icons.settings),
           ),
         ],
       ),

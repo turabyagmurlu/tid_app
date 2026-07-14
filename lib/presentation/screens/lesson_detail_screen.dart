@@ -183,6 +183,18 @@ class _WordSectionState extends State<_WordSection> {
               child: Text(word.turkishWord,
                   style: Theme.of(context).textTheme.headlineSmall),
             ),
+            BlocBuilder<ProgressCubit, ProgressState>(
+              builder: (context, ps) {
+                final fav = ps.progress.favoriteWordIds.contains(word.wordId);
+                return IconButton(
+                  tooltip: fav ? 'Favoriden çıkar' : 'Favorilere ekle',
+                  icon: Icon(fav ? Icons.star : Icons.star_border,
+                      color: fav ? AppColors.accent : null),
+                  onPressed: () =>
+                      context.read<ProgressCubit>().toggleFavorite(word.wordId),
+                );
+              },
+            ),
             if (word.facialExpressionRequired) const _FacialBadge(),
           ],
         ),

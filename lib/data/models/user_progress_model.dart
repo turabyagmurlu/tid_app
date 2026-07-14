@@ -10,6 +10,9 @@ class UserProgress extends Equatable {
 
   /// "Öğrendim" işaretlenen kelimelerin word_id kümesi.
   final Set<String> learnedWordIds;
+
+  /// Favori (yıldızlı) kelimelerin word_id kümesi.
+  final Set<String> favoriteWordIds;
   final int xp;
 
   const UserProgress({
@@ -17,6 +20,7 @@ class UserProgress extends Equatable {
     this.lastStudyDate,
     this.completedLessonIds = const {},
     this.learnedWordIds = const {},
+    this.favoriteWordIds = const {},
     this.xp = 0,
   });
 
@@ -25,6 +29,7 @@ class UserProgress extends Equatable {
     DateTime? lastStudyDate,
     Set<String>? completedLessonIds,
     Set<String>? learnedWordIds,
+    Set<String>? favoriteWordIds,
     int? xp,
   }) {
     return UserProgress(
@@ -32,6 +37,7 @@ class UserProgress extends Equatable {
       lastStudyDate: lastStudyDate ?? this.lastStudyDate,
       completedLessonIds: completedLessonIds ?? this.completedLessonIds,
       learnedWordIds: learnedWordIds ?? this.learnedWordIds,
+      favoriteWordIds: favoriteWordIds ?? this.favoriteWordIds,
       xp: xp ?? this.xp,
     );
   }
@@ -52,6 +58,10 @@ class UserProgress extends Equatable {
           ((map['learned_word_ids'] as List<dynamic>?) ?? const [])
               .map((e) => e.toString())
               .toSet(),
+      favoriteWordIds:
+          ((map['favorite_word_ids'] as List<dynamic>?) ?? const [])
+              .map((e) => e.toString())
+              .toSet(),
       xp: (map['xp'] ?? 0) as int,
     );
   }
@@ -61,10 +71,17 @@ class UserProgress extends Equatable {
         'last_study_date': lastStudyDate?.toIso8601String(),
         'completed_lesson_ids': completedLessonIds.toList(),
         'learned_word_ids': learnedWordIds.toList(),
+        'favorite_word_ids': favoriteWordIds.toList(),
         'xp': xp,
       };
 
   @override
-  List<Object?> get props =>
-      [currentStreak, lastStudyDate, completedLessonIds, learnedWordIds, xp];
+  List<Object?> get props => [
+        currentStreak,
+        lastStudyDate,
+        completedLessonIds,
+        learnedWordIds,
+        favoriteWordIds,
+        xp,
+      ];
 }
