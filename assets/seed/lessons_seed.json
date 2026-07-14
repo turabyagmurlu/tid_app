@@ -181,6 +181,48 @@
      ],
      "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
      "facial_expression_required": false
+    },
+    {
+     "word_id": "auto_l1_p2_0",
+     "turkish_word": "Dört",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/361-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "auto_l1_p2_1",
+     "turkish_word": "Yedi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/871-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "auto_l1_p2_2",
+     "turkish_word": "Sekiz",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/966-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
     }
    ]
   },
@@ -244,6 +286,62 @@
       }
      ],
      "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "auto_l2_p2_0",
+     "turkish_word": "Mavi",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1352-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "auto_l2_p2_1",
+     "turkish_word": "Sarı",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1120-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "auto_l2_p2_2",
+     "turkish_word": "Siyah",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/819-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "auto_l2_p2_3",
+     "turkish_word": "Pembe",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1617-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
      "facial_expression_required": false
     }
    ]
@@ -1740,6 +1838,232 @@
    ]
   },
   {
+   "lesson_id": "ph2_0",
+   "title": "Aylar ve Mevsimler",
+   "level": "A2",
+   "module": "A2 Â· Temel",
+   "words": [
+    {
+     "word_id": "ph2l0_0",
+     "turkish_word": "Ocak",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1834-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l0_1",
+     "turkish_word": "Şubat",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1203-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l0_2",
+     "turkish_word": "Mart",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1397-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l0_3",
+     "turkish_word": "Nisan",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1831-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l0_4",
+     "turkish_word": "Mayıs",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1401-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l0_5",
+     "turkish_word": "Temmuz",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1644-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l0_6",
+     "turkish_word": "Eylül",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1430-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l0_7",
+     "turkish_word": "Ekim",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1979-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l0_8",
+     "turkish_word": "Yaz",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1387-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l0_9",
+     "turkish_word": "Kış",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1996-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
+   "lesson_id": "ph2_1",
+   "title": "Kıyafet",
+   "level": "A2",
+   "module": "A2 Â· Temel",
+   "words": [
+    {
+     "word_id": "ph2l1_0",
+     "turkish_word": "Elbise",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/278-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l1_1",
+     "turkish_word": "Pantolon",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/647-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l1_2",
+     "turkish_word": "Ayakkabı",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/553-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l1_3",
+     "turkish_word": "Şapka",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1372-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "ph2l1_4",
+     "turkish_word": "Eldiven",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1153-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    }
+   ]
+  },
+  {
    "lesson_id": "gram_4",
    "title": "5. Zaman Cümlenin Başında",
    "level": "B1",
@@ -2190,6 +2514,34 @@
      ],
      "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
      "facial_expression_required": false
+    },
+    {
+     "word_id": "auto_l10_p2_0",
+     "turkish_word": "İnek",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/933-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
+    },
+    {
+     "word_id": "auto_l10_p2_1",
+     "turkish_word": "Tavuk",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/500-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
     }
    ]
   },
@@ -2240,6 +2592,20 @@
      ],
      "mnemonic_tip": "Ayna düğmesiyle çevir, 0.5x ile yavaşlat, sonra taklit et.",
      "facial_expression_required": true
+    },
+    {
+     "word_id": "auto_l11_p2_0",
+     "turkish_word": "Yorgun",
+     "tid_grammar_note": "",
+     "regional_variants": [
+      {
+       "region": "ResmÃ® TÄ°D SÃ¶zlÃ¼ÄŸÃ¼ (Aile BakanlÄ±ÄŸÄ±)",
+       "video_full_body": "videos/1904-01_cr_0.5.mp4",
+       "video_lip_closeups": ""
+      }
+     ],
+     "mnemonic_tip": "",
+     "facial_expression_required": false
     }
    ]
   },
