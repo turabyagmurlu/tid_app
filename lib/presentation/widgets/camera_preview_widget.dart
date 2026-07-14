@@ -64,18 +64,31 @@ class _MirrorCameraPreviewState extends State<MirrorCameraPreview> {
     } else if (!_ready || _controller == null) {
       child = const Center(child: CircularProgressIndicator());
     } else {
-      child = Transform(
-        alignment: Alignment.center,
-        transform: widget.mirror
-            ? (Matrix4.identity()..scale(-1.0, 1.0, 1.0))
-            : Matrix4.identity(),
-        child: CameraPreview(_controller!),
+      final size = _controller!.value.previewSize ?? const Size(640, 480);
+      // Alanı doldur (cover): siyah boşluk bırakmadan tüm kutuyu kapla.
+      child = FittedBox(
+        fit: BoxFit.cover,
+        clipBehavior: Clip.hardEdge,
+        child: SizedBox(
+          width: size.width,
+          height: size.height,
+          child: Transform(
+            alignment: Alignment.center,
+            transform: widget.mirror
+                ? (Matrix4.identity()..scale(-1.0, 1.0, 1.0))
+                : Matrix4.identity(),
+            child: CameraPreview(_controller!),
+          ),
+        ),
       );
     }
 
     return ClipRRect(
       borderRadius: BorderRadius.circular(AppDimensions.radiusMd),
-      child: ColoredBox(color: Colors.black, child: Center(child: child)),
+      child: ColoredBox(
+        color: Colors.black,
+        child: SizedBox.expand(child: child),
+      ),
     );
   }
 }

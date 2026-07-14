@@ -11,10 +11,10 @@ import '../../data/models/word_model.dart';
 import '../blocs/practice/practice_cubit.dart';
 import '../widgets/camera_preview_widget.dart';
 import '../widgets/dual_video_player.dart';
-import '../widgets/mimic_feedback_overlay.dart';
+import 'hand_tracking_screen.dart';
 
-/// Ayna Modu (Split-Screen) alıştırma ekranı — Bölüm 4/6-A.
-/// ÜST: eğitmen referans videosu · ALT: kullanıcının canlı ön kamerası + overlay.
+/// Ayna Modu — ÜST: eğitmen referans videosu · ALT: kullanıcının ön kamerası.
+/// İşareti izleyip aynı anda kendini aynada taklit edersin.
 class CameraPracticeScreen extends StatelessWidget {
   final WordModel word;
   final RegionalVariant variant;
@@ -95,65 +95,70 @@ class _PracticeViewState extends State<_PracticeView> {
           children: [
             // ÜST: Eğitmen referans videosu
             Expanded(
-              flex: 5,
-              child: Container(
-                color: Colors.black,
-                width: double.infinity,
+              child: Padding(
                 padding: const EdgeInsets.all(AppDimensions.sm),
-                child: DualVideoPlayer(
-                  key: ValueKey(
-                      'practice_${widget.word.wordId}_${widget.variant.region}'),
-                  fullBodyUrl: widget.variant.videoFullBody,
-                  lipCloseupUrl: widget.variant.videoLipCloseups,
+                child: _Labeled(
+                  label: 'Referans',
+                  color: AppColors.primary,
+                  child: DualVideoPlayer(
+                    key: ValueKey(
+                        'practice_${widget.word.wordId}_${widget.variant.region}'),
+                    fullBodyUrl: widget.variant.videoFullBody,
+                    lipCloseupUrl: widget.variant.videoLipCloseups,
+                  ),
                 ),
               ),
             ),
 
-            // ALT: Ayna modu + mimik geri bildirim katmanı
+            // ALT: Kullanıcının ön kamerası (ayna)
             Expanded(
-              flex: 5,
               child: Padding(
-                padding: const EdgeInsets.all(AppDimensions.sm),
+                padding: const EdgeInsets.fromLTRB(AppDimensions.sm, 0,
+                    AppDimensions.sm, AppDimensions.sm),
                 child: BlocBuilder<PracticeCubit, PracticeState>(
                   builder: (context, s) {
-                    return Stack(
-                      children: [
-                        Positioned.fill(
-                          child: _loadingCameras
-                              ? const Center(child: CircularProgressIndicator())
+                    return _Labeled(
+                      label: 'Sen (ayna)',
+                      color: const Color(0xFF06B6D4),
+                      child: _cameraError != null
+                          ? _CamError(message: _cameraError!)
+                          : _loadingCameras
+                              ? const ColoredBox(
+                                  color: Colors.black,
+                                  child: Center(
+                                      child: CircularProgressIndicator()),
+                                )
                               : MirrorCameraPreview(
                                   camera: front, mirror: s.mirrorEnabled),
-                        ),
-                        if (_cameraError == null && !_loadingCameras)
-                          Positioned.fill(
-                            child: MimicFeedbackOverlay(
-                              hand: s.handFeedback,
-                              face: s.faceFeedback,
-                              facialExpressionRequired:
-                                  widget.word.facialExpressionRequired,
-                            ),
-                          ),
-                        if (_cameraError != null)
-                          Center(
-                            child: Padding(
-                              padding: const EdgeInsets.all(AppDimensions.md),
-                              child: Text(
-                                _cameraError!,
-                                textAlign: TextAlign.center,
-                                style: const TextStyle(color: Colors.white),
-                              ),
-                            ),
-                          ),
-                      ],
                     );
                   },
                 ),
               ),
             ),
 
-            // GEÇİCİ: MediaPipe entegrasyonu gelene kadar overlay durumlarını
-            // göstermek için manuel demo düğmeleri. Üretimde kaldırılacak.
-            const _DemoFeedbackBar(),
+            // Alt ipucu + gerçek el takibine kısayol
+            Padding(
+              padding: const EdgeInsets.fromLTRB(AppDimensions.md, 0,
+                  AppDimensions.md, AppDimensions.sm),
+              child: Row(
+                children: [
+                  const Expanded(
+                    child: Text(
+                      'İşareti izle, aynı anda kendini aynada taklit et.',
+                      style: TextStyle(fontSize: 13),
+                    ),
+                  ),
+                  TextButton.icon(
+                    icon: const Icon(Icons.back_hand, size: 18),
+                    label: const Text('El Takibi'),
+                    onPressed: () => Navigator.of(context).push(
+                      MaterialPageRoute(
+                          builder: (_) => const HandTrackingScreen()),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
@@ -161,43 +166,67 @@ class _PracticeViewState extends State<_PracticeView> {
   }
 }
 
-class _DemoFeedbackBar extends StatelessWidget {
-  const _DemoFeedbackBar();
+/// Bir çocuğu köşe etiketiyle saran kutu.
+class _Labeled extends StatelessWidget {
+  final String label;
+  final Color color;
+  final Widget child;
+  const _Labeled(
+      {required this.label, required this.color, required this.child});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Theme.of(context).colorScheme.surface,
-      padding: const EdgeInsets.symmetric(
-          horizontal: AppDimensions.sm, vertical: AppDimensions.xs),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(AppDimensions.radiusMd),
+      child: Stack(
+        fit: StackFit.expand,
         children: [
-          TextButton.icon(
-            onPressed: () => context.read<PracticeCubit>().updateMimicFeedback(
-                  hand: HandFeedback.detecting,
-                  face: FaceFeedback.detecting,
-                ),
-            icon: const Icon(Icons.sensors),
-            label: const Text('Algıla'),
-          ),
-          TextButton.icon(
-            onPressed: () => context.read<PracticeCubit>().updateMimicFeedback(
-                  hand: HandFeedback.matched,
-                  face: FaceFeedback.matched,
-                ),
-            icon: const Icon(Icons.check_circle, color: AppColors.success),
-            label: const Text('Eşleşti'),
-          ),
-          TextButton.icon(
-            onPressed: () => context.read<PracticeCubit>().updateMimicFeedback(
-                  hand: HandFeedback.mismatch,
-                  face: FaceFeedback.mismatch,
-                ),
-            icon: const Icon(Icons.error, color: AppColors.error),
-            label: const Text('Hatalı'),
+          ColoredBox(color: Colors.black, child: Center(child: child)),
+          Positioned(
+            top: 8,
+            left: 8,
+            child: Container(
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+              decoration: BoxDecoration(
+                color: color,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Text(label,
+                  style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 12,
+                      fontWeight: FontWeight.w800)),
+            ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _CamError extends StatelessWidget {
+  final String message;
+  const _CamError({required this.message});
+
+  @override
+  Widget build(BuildContext context) {
+    return ColoredBox(
+      color: Colors.black,
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(AppDimensions.md),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Icon(Icons.videocam_off, color: Colors.white70, size: 40),
+              const SizedBox(height: AppDimensions.sm),
+              Text(message,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(color: Colors.white70)),
+            ],
+          ),
+        ),
       ),
     );
   }
