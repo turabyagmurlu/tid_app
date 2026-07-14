@@ -10,16 +10,38 @@ import '../blocs/progress/progress_cubit.dart';
 import '../blocs/srs/srs_cubit.dart';
 import '../widgets/lesson_card.dart';
 import '../widgets/streak_banner.dart';
+import '../blocs/settings/settings_cubit.dart';
 import 'favorites_screen.dart';
 import 'hand_tracking_screen.dart';
 import 'lesson_detail_screen.dart';
+import 'onboarding_screen.dart';
 import 'review_today_screen.dart';
 import 'search_screen.dart';
 import 'settings_screen.dart';
 import 'stats_screen.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final seen = context.read<SettingsCubit>().state.onboardingSeen;
+      if (!seen) {
+        Navigator.of(context).push(MaterialPageRoute(
+          fullscreenDialog: true,
+          builder: (_) => const OnboardingScreen(),
+        ));
+      }
+    });
+  }
 
   @override
   Widget build(BuildContext context) {

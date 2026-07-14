@@ -13,7 +13,14 @@ class SettingsCubit extends Cubit<SettingsState> {
       : super(SettingsState(
           fontScale: _store.loadFontScale(),
           themeMode: _intToThemeMode(_store.loadThemeMode()),
+          onboardingSeen: _store.loadOnboardingSeen(),
         ));
+
+  void markOnboardingSeen() {
+    if (state.onboardingSeen) return;
+    emit(state.copyWith(onboardingSeen: true));
+    _store.saveOnboardingSeen(true);
+  }
 
   static ThemeMode _intToThemeMode(int i) => switch (i) {
         1 => ThemeMode.light,
