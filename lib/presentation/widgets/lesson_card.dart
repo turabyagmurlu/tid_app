@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_dimensions.dart';
 import '../../data/models/lesson_model.dart';
+import 'pressable.dart';
 
 /// Home ekranında bir dersi temsil eden kart.
 class LessonCard extends StatelessWidget {
@@ -21,7 +22,8 @@ class LessonCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
+    return Pressable(
+      child: Card(
       margin: const EdgeInsets.symmetric(vertical: AppDimensions.xs),
       clipBehavior: Clip.antiAlias,
       child: InkWell(
@@ -89,6 +91,7 @@ class LessonCard extends StatelessWidget {
             ],
           ),
         ),
+      ),
       ),
     );
   }
